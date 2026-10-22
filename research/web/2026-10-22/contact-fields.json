@@ -1,0 +1,80 @@
+{
+  "fields": [
+    {
+      "associatedLabels": [
+        "Meno *"
+      ],
+      "id": "wpforms-666-field_0",
+      "name": "wpforms[fields][0]",
+      "placeholder": "Meno *",
+      "required": true,
+      "type": "text"
+    },
+    {
+      "associatedLabels": [
+        "Názov spoločnosti"
+      ],
+      "id": "wpforms-666-field_6",
+      "name": "wpforms[fields][6]",
+      "placeholder": "Názov spoločnosti",
+      "required": false,
+      "type": "text"
+    },
+    {
+      "associatedLabels": [
+        "Email *"
+      ],
+      "id": "wpforms-666-field_1",
+      "name": "wpforms[fields][1]",
+      "placeholder": "Email *",
+      "required": true,
+      "type": "email"
+    },
+    {
+      "associatedLabels": [
+        "Telefón"
+      ],
+      "id": "wpforms-666-field_4",
+      "name": "wpforms[fields][4]",
+      "placeholder": "Telefón",
+      "required": false,
+      "type": "text"
+    },
+    {
+      "associatedLabels": [
+        "Predmet *"
+      ],
+      "id": "wpforms-666-field_3",
+      "name": "wpforms[fields][3]",
+      "placeholder": "Predmet *",
+      "required": true,
+      "type": "text"
+    },
+    {
+      "associatedLabels": [
+        "Správa *"
+      ],
+      "id": "wpforms-666-field_2",
+      "name": "wpforms[fields][2]",
+      "placeholder": "Správa *",
+      "required": true,
+      "type": "TEXTAREA"
+    },
+    {
+      "associatedLabels": [
+        "Súhlasím so spracovaním osobných údajov *"
+      ],
+      "id": "wpforms-666-field_5_1",
+      "name": "wpforms[fields][5][]",
+      "placeholder": null,
+      "required": true,
+      "type": "checkbox"
+    }
+  ],
+  "url": "https://www.onlineasistent.sk/kontakt/",
+  "viewport": {
+    "height": 844,
+    "scrollWidth": 390,
+    "width": 390
+  }
+}

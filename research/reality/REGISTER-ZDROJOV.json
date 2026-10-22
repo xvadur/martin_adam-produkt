@@ -1,0 +1,337 @@
+{
+  "schema_version": "1.0",
+  "title": "Kurátorský výber realitných podkladov pre Martina a Adama",
+  "curated_on": "2026-10-22",
+  "language": "sk",
+  "scope": "Research, redakčné a produktové hypotézy; bez stavby webu, kontaktovania ľudí alebo publikovania.",
+  "workspace_locator_base": "xvadur_workspace/",
+  "repository_raw_transfer_policy": "Len nová syntéza, agregácie a provenance. Žiadne osobné kontakty, celé cudzie texty ani cudzie klientské stratégie.",
+  "evidence_labels": {
+    "observed_recomputed": "Dostupný artefakt bol lokálne otvorený a relevantné počty znovu vypočítané.",
+    "reported": "Prečítané tvrdenie historického reportu; owning raw sa nepreveril.",
+    "hypothesis": "Nový návrh; potrebuje prax, používateľov a dôkaz."
+  },
+  "sources": [
+    {
+      "id": "R01",
+      "title": "Discovery realitných kancelárií — Bratislavský kraj",
+      "source_date": "2026-08-15",
+      "type": "primary_local_export",
+      "evidence_status": "observed_recomputed",
+      "grain": "Jedno pozorovanie profilu v jednom registri; nie deduplikovaná kancelária.",
+      "selection_reason": "Dohľadateľný výber rámca pre malé nové audity. Umožňuje vysvetliť vzorku bez predstierania sčítania trhu.",
+      "assets": [
+        {
+          "workspace_locator": "xvadur_core/zdroje/realitky/bratislava-region-agency-discovery-evidence-v1-2026-08-15.csv",
+          "sha256": "61c78c4bfae984d236378ec62181ff6eadc919db22c33a57eca0745eae455372",
+          "role": "owning export",
+          "available_in_workspace_on": "2026-10-22",
+          "copied_to_repository": false
+        }
+      ],
+      "source_urls": [
+        "https://www.zrks.sk/",
+        "https://www.zoznamrealit.sk/",
+        "https://www.realitnaunia.sk/",
+        "https://www.reality.sk/"
+      ],
+      "url_note": "Verejné vstupné domény registrov; presné profilové source_url sú v lokálnom exporte a neprenášajú sa.",
+      "coverage": {
+        "rows": 750,
+        "by_source_host": {
+          "www.zrks.sk": 76,
+          "www.zoznamrealit.sk": 109,
+          "www.realitnaunia.sk": 23,
+          "www.reality.sk": 542
+        },
+        "fetch_status_200": 750,
+        "collected_at": "2026-08-15T15:40:46+00:00"
+      },
+      "raw_availability": "Primárny CSV je lokálne dostupný; obsahuje kontaktné údaje a do tohto repozitára sa nekopíruje. Úspešný HTTP záznam nepotvrdzuje kvalitu ani úplnosť každého poľa.",
+      "permitted_claim": "V tomto exporte je 750 profilových pozorovaní zo štyroch registrov.",
+      "forbidden_inference": [
+        "750 jedinečných kancelárií",
+        "úplný slovenský alebo bratislavský trh",
+        "aktívni klienti alebo platobná ochota"
+      ],
+      "reuse": "Len nové agregácie a transparentný výber vzorky; bez osobných kontaktov."
+    },
+    {
+      "id": "R02",
+      "title": "Plytký export kandidátov marketingového copy",
+      "source_date": "2026-08-15",
+      "type": "primary_local_export",
+      "evidence_status": "observed_recomputed",
+      "grain": "Jeden keyword kandidát úryvku, previazaný s website_id, agency_id, page_id a URL.",
+      "selection_reason": "Najsilnejší dostupný raw základ na výber tém a ručný audit tvrdení; zároveň názorne ukazuje riziko boilerplate a opakovania.",
+      "assets": [
+        {
+          "workspace_locator": "xvadur_core/zdroje/realitky/bratislava-region-website-claims-v1-2026-08-15.csv",
+          "sha256": "8ea804f64cae9ed699bdf0e8fbe2710f8fbb518b118219b5593a1b8b1dbe1695",
+          "role": "owning export",
+          "available_in_workspace_on": "2026-10-22",
+          "copied_to_repository": false
+        }
+      ],
+      "source_urls": [],
+      "url_note": "Presné source_url sú pri každom riadku lokálneho CSV. Tento prenosný register neprepublikuje corpus ani zoznam auditovaných profilov.",
+      "coverage": {
+        "candidate_rows": 4776,
+        "distinct_website_id": 358,
+        "distinct_agency_id": 358,
+        "distinct_page_id": 1888,
+        "distinct_source_url": 1882,
+        "distinct_source_hosts": 363,
+        "distinct_exact_snippet": 3272,
+        "largest_repeated_snippet_count": 432,
+        "largest_repeated_snippet_is_cookie_related": true,
+        "claim_types": {
+          "seller_promise_candidate": 230,
+          "process_candidate": 3264,
+          "proof_number_candidate": 626,
+          "personal_accountability_candidate": 656
+        },
+        "checked_at_min": "2026-08-15T17:44:07+00:00",
+        "checked_at_max": "2026-08-15T18:14:21+00:00"
+      },
+      "raw_availability": "Primárny CSV lokálne existuje. Úryvky obsahujú cudzie copy; raw sa neprenáša.",
+      "permitted_claim": "Export obsahuje 4 776 automaticky vybraných kandidátov; najčastejší identický úryvok je cookie text opakovaný 432-krát.",
+      "forbidden_inference": [
+        "4 776 ručne potvrdených marketingových claimov",
+        "percento trhu s konkrétnou vlastnosťou",
+        "358 hostov — website_id a doména sú odlišné zrná",
+        "absencia služby, kvalita firmy alebo konverzný výkon"
+      ],
+      "reuse": "Ručne potvrdiť nový malý vzorok, deduplikovať a vylúčiť navigáciu, cookie a footer. Publikovať vlastnú syntézu s konkrétnymi URL, dátumom a úzkymi závermi."
+    },
+    {
+      "id": "R03",
+      "title": "Whole-web copy crawler — dôkazový a QA kontrakt",
+      "source_date": "2026-08-16 (baseline uvádzaný v dokumente)",
+      "type": "implementation_brief_and_historical_run_report",
+      "evidence_status": "report_read_raw_run_not_reverified",
+      "grain": "Kontrakt site → page → block a historické súhrny jedného crawl behu.",
+      "selection_reason": "Prenosný metodický základ na kvalitnejší audit: timestamp, URL, DOM blok, screenshot, boilerplate a explicitný neúspech.",
+      "assets": [
+        {
+          "workspace_locator": "xvadur_core/zdroje/realitky/COMPETITOR_COPY_CRAWLER_BRIEF.md",
+          "sha256": "3e3e2719e04122f7aee5223be3e9e5c1df4a553bad971bbdd84baba22d01eea5",
+          "role": "owning methodology and report",
+          "available_in_workspace_on": "2026-10-22",
+          "copied_to_repository": false
+        }
+      ],
+      "source_urls": [],
+      "url_note": "Ide o interný implementačný zdroj; verejný URL celého behu nie je v tomto balíku dostupný.",
+      "coverage": {
+        "reported_hosts": 459,
+        "reported_successful_hosts": 441,
+        "reported_pages": 5187,
+        "reported_source_blocks": 451505,
+        "reported_screenshots": 3021
+      },
+      "raw_availability": "Brief je dostupný. Owning raw snapshoty, SQLite graph a market-v2 master sa v preverovaných troch zdrojových koreňoch nenašli. Nie je to dôkaz ich neexistencie inde.",
+      "permitted_claim": "Brief uvádza rozsah a úspešný QA baseline zo 16. 8.; metodika požaduje dohľadateľný zdroj, oddelenie boilerplate a explicitné chyby.",
+      "forbidden_inference": [
+        "Dnešné nezávislé overenie 441 webov",
+        "aktuálny stav trhových webov",
+        "použitie historických súhrnov ako dostupného raw benchmarku"
+      ],
+      "reuse": "Vlastná adaptácia výskumného protokolu. Číselné baseline sú iba reportované historické údaje."
+    },
+    {
+      "id": "R04",
+      "title": "Historické otázky predávajúcich — query intent",
+      "source_date": "2026-07-07; dokument uvádza code audit 2026-07-27",
+      "type": "historical_search_observation_report",
+      "evidence_status": "report_read_query_snapshot_not_rerun",
+      "grain": "Tvar otázky alebo query cluster; nie hľadanosť ani osoba.",
+      "selection_reason": "Podklad pre rozhovor a vysvetlenie rôznych situácií klienta: samopredaj, cena, hypotéka, predaj/prenájom.",
+      "assets": [
+        {
+          "workspace_locator": "projekty/jakub/docs/research/growth/SEO_AIO_KEYWORD_INTENT_MAP_2026-07-07.md",
+          "sha256": "0acb40b3f1f23b40406a65a2b11158cd2e6cb91570f3f2ac2377118a9c7f5868",
+          "role": "historical observation report; only query patterns reused",
+          "available_in_workspace_on": "2026-10-22",
+          "copied_to_repository": false
+        }
+      ],
+      "source_urls": [
+        "https://suggestqueries.google.com/",
+        "https://www.google.com/"
+      ],
+      "url_note": "Historický report uvádza autocomplete hl=sk, gl=sk a SERP k 7. 7.; presný surový snapshot/úplná request sada tu neboli overené. Domény nie sú dnešným dôkazom historických výsledkov.",
+      "coverage": {
+        "sample": "Zámerovo vybrané slovenské seller queries; reprezentatívny objem vzorky nie je stanovený.",
+        "reused_question_families": [
+          "predaj bez realitky / postup",
+          "odhad alebo cena bytu",
+          "predaj bytu s hypotékou",
+          "predať alebo prenajať"
+        ]
+      },
+      "raw_availability": "Dostupný je report. Kompletný primárny SERP/autocomplete log sa neoveril. Klientove URL priority a plán kampane sa neprenášajú.",
+      "permitted_claim": "Júlový report zaznamenal tieto formy otázok; hodia sa ako interview prompt.",
+      "forbidden_inference": [
+        "aktuálna hľadanosť",
+        "veľkosť dopytu",
+        "SEO výsledok",
+        "ochota zaplatiť za Martinov produkt"
+      ],
+      "reuse": "Pôvodné otázky a nový článok; pred tvrdením o súčasnom vyhľadávaní zopakovať datovaný query zber."
+    },
+    {
+      "id": "R05",
+      "title": "Mapa realitných nástrojov a prevádzkových úloh",
+      "source_date": "2026-08-01; čiastočný web recheck 2026-10-22",
+      "type": "historical_vendor_claim_matrix_with_partial_current_check",
+      "evidence_status": "local_report_and_matrix_read_two_current_vendor_pages_read",
+      "grain": "Jeden dodávateľský produkt v historickej 20-riadkovej matici; deklarované schopnosti, nie testy.",
+      "selection_reason": "Pomáha formulovať hodnotu školenia nad konkrétnym pracovným tokom. Zabráni označovať existujúce CRM/matching/AI kategórie za novinku.",
+      "assets": [
+        {
+          "workspace_locator": "projekty/hriech/netopier/data/realitny-trh/strategia/real-estate-intelligence-market-research-2026-08-01.md",
+          "sha256": "97f4f7c1360b04019401cba7a2a758214ce0eff5cf8199b9b72186ae368dd71c",
+          "role": "historical report; pricing and client strategy not transferred",
+          "available_in_workspace_on": "2026-10-22",
+          "copied_to_repository": false
+        },
+        {
+          "workspace_locator": "projekty/hriech/netopier/data/realitny-trh/strategia/real-estate-intelligence-software-top20-2026-08-01.csv",
+          "sha256": "3db4e30201c3df03023ae7040334af972422e7aa8daaed7aeb621ff1351e6e02",
+          "role": "historical vendor source URL and feature matrix",
+          "available_in_workspace_on": "2026-10-22",
+          "copied_to_repository": false
+        }
+      ],
+      "source_urls": [
+        "https://www.backoffice.sk/realitny-software/",
+        "https://hooslist.tech/",
+        "https://stret.ai/cs",
+        "https://realityradar.eu/",
+        "https://www.octopuspro.cz/sluzby/webove-sluzby/"
+      ],
+      "coverage": {
+        "historical_vendor_rows": 20,
+        "current_text_checks_2026_10_22": {
+          "https://www.backoffice.sk/realitny-software/": "Verejná stránka deklaruje CRM, exporty a skener. Bez trialu alebo posúdenia výkonu.",
+          "https://stret.ai/cs": "Verejná stránka deklaruje hlasové CRM a návrhy odpovedí s kontrolou človekom. Bez trialu alebo posúdenia výkonu.",
+          "https://hooslist.tech/": "Otvorenie v research nástroji vrátilo nulový text. Aktuálne funkcie sa tým nepotvrdili."
+        }
+      },
+      "raw_availability": "Historický report aj 20-riadková matica sú dostupné; plné dodávateľské snapshoty ani funkčné trialy sa tu neoverovali.",
+      "permitted_claim": "CRM, monitoring, matching a AI sú existujúce verejne ponúkané kategórie. Dve vybrané stránky boli čiastočne znovu prečítané 22. 10. 2026.",
+      "forbidden_inference": [
+        "aktuálne funkcie/ceny všetkých 20 dodávateľov",
+        "nezávisle overená funkčnosť alebo úspora času",
+        "medzera na trhu alebo pripravenosť platiť",
+        "preberanie cudzích klientskych ICP/cien/obchodnej stratégie"
+      ],
+      "reuse": "Vlastný workflow a tréning. Konkrétnu verziu nástroja v produkte overiť v povolenom demo účte; nepoužívať historický cenník."
+    },
+    {
+      "id": "R06",
+      "title": "Meranie dokončeného výsledku — metodický kontrakt",
+      "source_date": "Dokument bez explicitného dátumu; lokálny stav hashovaný 2026-10-22",
+      "type": "internal_operating_design_contract",
+      "evidence_status": "contract_read_no_live_results_claimed",
+      "grain": "Definícia udalosti, atribúcie a podmienok overenia; nie nameraný výkon.",
+      "selection_reason": "Umožňuje oddeliť klik, odoslanie, doručenie a reálny výsledok. Poskytuje vlastný pracovný rámec pre článok a auditný list.",
+      "assets": [
+        {
+          "workspace_locator": "projekty/jakub/docs/GROWTH_AND_MEASUREMENT.md",
+          "sha256": "5f23ab34d7291134dee73b44e80d77cbaabb6887818b629bf479c718b720349e",
+          "role": "methodological provenance; only generic measurement distinctions reused",
+          "available_in_workspace_on": "2026-10-22",
+          "copied_to_repository": false
+        }
+      ],
+      "source_urls": [],
+      "url_note": "Tento zdroj je klientsky prevádzkový kontrakt, nie verejný výsledkový report. Do balíka sa prenáša iba nová všeobecná syntéza bez identifikátorov, kampaní a client copy.",
+      "coverage": {
+        "sample": "Bez vzorky výsledkov. Kontrakt definícií a release proof."
+      },
+      "raw_availability": "Kontrakt je dostupný; reálne GA4/Ads/CRM výsledky sa nečítali ani neprenášajú.",
+      "permitted_claim": "Pripravený event kontrakt nie je potvrdenie bežiacej analytiky ani obchodného výsledku.",
+      "forbidden_inference": [
+        "zvýšenie konverzie",
+        "bežiace kampane alebo platné aktuálne compliance pravidlá",
+        "výsledky Jakubovho alebo Martinovho webu"
+      ],
+      "reuse": "Originálny merací list s anonymnými ID, explicitnými menovateľmi a read-back dôkazom. Právny výklad nie je súčasťou balíka."
+    }
+  ],
+  "excluded_groups": [
+    {
+      "group": "AI visibility enrichment queue",
+      "reason": "739 úloh, všetky not_checked. Nie je dostupné vykonané meranie GEO.",
+      "asset": {
+        "workspace_locator": "xvadur_core/zdroje/realitky/bratislava-region-ai-visibility-enrichment-queue-v1-2026-08-15.csv",
+        "sha256": "9b96e5243ab84bc4aaab44bac69914ef8953ab1a049a2228b794dc043df66cea",
+        "role": "negative evidence / exclusion",
+        "available_in_workspace_on": "2026-10-22",
+        "copied_to_repository": false
+      },
+      "observed_status_counts": {
+        "not_checked": 739
+      }
+    },
+    {
+      "group": "Súkromné jazykové a BOSEN strategické návrhy iného klienta",
+      "reason": "Preverené selektívne ako orientácia; celé analýzy, copy, klientsky positioning a obchodné návrhy neprenášame. Môžu ukázať otázku, nový verejný dôkaz treba získať samostatne."
+    },
+    {
+      "group": "Staršie 1 700 / 5 000 person profily a 679 agentúrnych záznamov",
+      "reason": "Historické odlišné zrná, owning mastery tu nedostupné. Nie sú menovateľ aktuálneho trhu ani kontaktový produkt."
+    },
+    {
+      "group": "Senior bývanie, zdravotné a wealth-extraction rešerše",
+      "reason": "Iný problém, citlivejší odborný rámec a vzdialenosť od Martinových aktuálnych prevádzkových tém. Bez priamej potreby nečítať a neprenášať."
+    },
+    {
+      "group": "Celé raw kontakty, cudzie copy a screenshot knižnice",
+      "reason": "Výskumná dostupnosť sama neoprávňuje na ďalšie verejné šírenie; pre tento balík nie sú potrebné."
+    },
+    {
+      "group": "Makro ceny a objemy trhu, hypotetické cenníky produktov a forecasty",
+      "reason": "Pre osobný brand a prvé pracovné produkty nie sú jadrom dôkazu. Aktuálne finančné tvrdenia by vyžadovali samostatný primárny update."
+    }
+  ],
+  "selected_group_count": 6,
+  "briefs": [
+    {
+      "id": "B01",
+      "path": "briefy/01-slub-a-dokaz.md",
+      "source_ids": [
+        "R01",
+        "R02",
+        "R03"
+      ]
+    },
+    {
+      "id": "B02",
+      "path": "briefy/02-prvy-rozhovor.md",
+      "source_ids": [
+        "R04",
+        "R06"
+      ]
+    },
+    {
+      "id": "B03",
+      "path": "briefy/03-databaza-v-praci.md",
+      "source_ids": [
+        "R05",
+        "R06"
+      ]
+    },
+    {
+      "id": "B04",
+      "path": "briefy/04-web-ako-cesta.md",
+      "source_ids": [
+        "R02",
+        "R03",
+        "R06"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1238 @@
+{
+  "schema_version": "1.0",
+  "research_date": "2026-10-22",
+  "captured_at_utc": "2026-10-22T15:13:20.428553+00:00",
+  "site": "https://www.onlineasistent.sk/",
+  "scope": "Public content research for future personal brand and redesign; no website build.",
+  "method": [
+    "Primary source HTTP GET",
+    "Cross-check key pages with web tool",
+    "Sitemap inventory plus linked retired training route"
+  ],
+  "boundaries": {
+    "form_submissions": false,
+    "login_attempts": false,
+    "orders_or_payments": false,
+    "downloaded_media": false,
+    "personal_contact_values_exported": false,
+    "medical_details_exported": false,
+    "future_products_treated_as_existing": false
+  },
+  "counts": {
+    "sitemap_urls": 34,
+    "pages": 17,
+    "articles": 14,
+    "categories": 1,
+    "tags": 2,
+    "extra_linked_routes_checked": 1,
+    "checked_inventory_rows": 35
+  },
+  "sitemap_index": "https://www.onlineasistent.sk/sitemap_index.xml",
+  "robots": "https://www.onlineasistent.sk/robots.txt",
+  "sitemaps": {
+    "page": {
+      "url": "https://www.onlineasistent.sk/page-sitemap.xml",
+      "url_count": 17,
+      "urls": [
+        "https://www.onlineasistent.sk/",
+        "https://www.onlineasistent.sk/vytvorenie-databazy/",
+        "https://www.onlineasistent.sk/zakaznicka-podpora/",
+        "https://www.onlineasistent.sk/vkladanie-produktov-na-eshop/",
+        "https://www.onlineasistent.sk/testovanie-softveru-a-aplikacii/",
+        "https://www.onlineasistent.sk/aktivny-a-pasivny-telemarketing/",
+        "https://www.onlineasistent.sk/obchod/",
+        "https://www.onlineasistent.sk/kosik/",
+        "https://www.onlineasistent.sk/kontrola-objednavky/",
+        "https://www.onlineasistent.sk/moj-ucet/",
+        "https://www.onlineasistent.sk/obchodny-zastupca-na-prenajom/",
+        "https://www.onlineasistent.sk/operator-pre-online-chat/",
+        "https://www.onlineasistent.sk/certifikaty/",
+        "https://www.onlineasistent.sk/moj-pribeh/",
+        "https://www.onlineasistent.sk/blog/",
+        "https://www.onlineasistent.sk/kontakt/",
+        "https://www.onlineasistent.sk/moje-sluzby/"
+      ]
+    },
+    "post": {
+      "url": "https://www.onlineasistent.sk/post-sitemap.xml",
+      "url_count": 14,
+      "urls": [
+        "https://www.onlineasistent.sk/ma-telemarketing-v-dnesnej-dobe-este-zmysel/",
+        "https://www.onlineasistent.sk/marketingove-hovory-sukromnym-osobam-maju-svoje-pravidla/",
+        "https://www.onlineasistent.sk/preco-je-uzivatelske-testovanie-softveru-a-aplikacii-dolezite/",
+        "https://www.onlineasistent.sk/dlhodoby-cold-calling-moze-mat-efekt-aj-v-sucasnosti-neverite/",
+        "https://www.onlineasistent.sk/navolavanie-studenych-kontaktov-v-lete-robit-ci-nie/",
+        "https://www.onlineasistent.sk/kde-mozete-ziskat-databazu-kontaktov-pre-svojho-obchodnika/",
+        "https://www.onlineasistent.sk/aktivny-telemarketing-preco-si-nerobim-statistiku-uspesnosti/",
+        "https://www.onlineasistent.sk/marketing-a-starostlivost-o-zakaznikov-kluc-k-uspechu-v-2025/",
+        "https://www.onlineasistent.sk/vlastny-obchodny-zastupca-alebo-externy-pre-a-proti/",
+        "https://www.onlineasistent.sk/externy-obchodny-zastupca-vs-interny-tim-kedy-sa-co-oplati/",
+        "https://www.onlineasistent.sk/online-chat-na-web-kedy-ho-zaviest-a-ako-vyuzit-naplno/",
+        "https://www.onlineasistent.sk/ako-online-chat-zvysuje-doveru-zakaznikov-a-predaje-e-shopu/",
+        "https://www.onlineasistent.sk/5-chyb-pri-pridavani-produktov-na-e-shop-ktore-brzdia-predaj/",
+        "https://www.onlineasistent.sk/databaza-firiem-a-gdpr-ako-legalne-oslovit-novych-klientov/"
+      ]
+    },
+    "category": {
+      "url": "https://www.onlineasistent.sk/category-sitemap.xml",
+      "url_count": 1,
+      "urls": [
+        "https://www.onlineasistent.sk/category/nezaradene/"
+      ]
+    },
+    "post_tag": {
+      "url": "https://www.onlineasistent.sk/post_tag-sitemap.xml",
+      "url_count": 2,
+      "urls": [
+        "https://www.onlineasistent.sk/tag/obchodny-zastupca/",
+        "https://www.onlineasistent.sk/tag/obchodny-zastupca-2/"
+      ]
+    }
+  },
+  "inventory": [
+    {
+      "url": "https://www.onlineasistent.sk/",
+      "path": "/",
+      "kind": "presentation",
+      "topic": "identity_and_referrals",
+      "summary": "Osobná prezentácia, šesť služieb, päť krokov spolupráce, referencie a formulár.",
+      "research_recommendation": "preserve_and_rewrite",
+      "review_ids": [
+        "C01",
+        "C04"
+      ],
+      "ctas": [
+        {
+          "label": "Kontaktujte ma",
+          "target": "https://www.onlineasistent.sk/kontakt/",
+          "tested": false
+        },
+        {
+          "label": "Viac o mne",
+          "target": "https://www.onlineasistent.sk/moj-pribeh/",
+          "tested": false
+        }
+      ],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2026-10-01T23:55:41+00:00",
+      "in_main_navigation_observed": true,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/",
+      "document_title": "Online asistent - Martin Barczi",
+      "h1": [
+        "Online asistent"
+      ],
+      "article_dates_declared": {
+        "article:modified_time": "2026-10-01T23:55:41+00:00"
+      }
+    },
+    {
+      "url": "https://www.onlineasistent.sk/vytvorenie-databazy/",
+      "path": "/vytvorenie-databazy/",
+      "kind": "service",
+      "topic": "data_preparation",
+      "summary": "Databáza z verejných zdrojov aj samostatne bez následnej akvizície.",
+      "research_recommendation": "specify_deliverable",
+      "review_ids": [
+        "C06"
+      ],
+      "ctas": [
+        {
+          "label": "Kontakt",
+          "target": "https://www.onlineasistent.sk/kontakt/",
+          "tested": false
+        }
+      ],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2022-12-17T18:14:02+00:00",
+      "in_main_navigation_observed": true,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/vytvorenie-databazy/",
+      "document_title": "Vytvorenie databázy z verejne prístupných zdrojov - Online asistent",
+      "h1": [
+        "Vytvorenie databázy z verejne prístupných zdrojov"
+      ],
+      "article_dates_declared": {
+        "article:modified_time": "2022-12-17T18:14:02+00:00"
+      }
+    },
+    {
+      "url": "https://www.onlineasistent.sk/zakaznicka-podpora/",
+      "path": "/zakaznicka-podpora/",
+      "kind": "service",
+      "topic": "support",
+      "summary": "Externá starostlivosť o existujúcich zákazníkov a posilnenie kapacity.",
+      "research_recommendation": "specify_deliverable",
+      "review_ids": [
+        "C04"
+      ],
+      "ctas": [
+        {
+          "label": "Kontakt",
+          "target": "https://www.onlineasistent.sk/kontakt/",
+          "tested": false
+        }
+      ],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2022-12-17T18:23:03+00:00",
+      "in_main_navigation_observed": true,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/zakaznicka-podpora/",
+      "document_title": "Zákaznícka podpora – starostlivosť o vašich súčasných klientov",
+      "h1": [
+        "Zákaznícka podpora – starostlivosť o vašich súčasných klientov"
+      ],
+      "article_dates_declared": {
+        "article:modified_time": "2022-12-17T18:23:03+00:00"
+      }
+    },
+    {
+      "url": "https://www.onlineasistent.sk/vkladanie-produktov-na-eshop/",
+      "path": "/vkladanie-produktov-na-eshop/",
+      "kind": "service",
+      "topic": "product_data",
+      "summary": "Vkladanie produktových informácií a obrázkov do klientovho e-shopu.",
+      "research_recommendation": "verify_priority_and_scope",
+      "review_ids": [
+        "C04"
+      ],
+      "ctas": [
+        {
+          "label": "Kontakt",
+          "target": "https://www.onlineasistent.sk/kontakt/",
+          "tested": false
+        }
+      ],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2022-12-17T18:44:56+00:00",
+      "in_main_navigation_observed": true,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/vkladanie-produktov-na-eshop/",
+      "document_title": "Vkladanie produktov na e-shop - online asistent",
+      "h1": [
+        "Vkladanie produktov na e-shop"
+      ],
+      "article_dates_declared": {
+        "article:modified_time": "2022-12-17T18:44:56+00:00"
+      }
+    },
+    {
+      "url": "https://www.onlineasistent.sk/testovanie-softveru-a-aplikacii/",
+      "path": "/testovanie-softveru-a-aplikacii/",
+      "kind": "service",
+      "topic": "user_testing",
+      "summary": "Používateľský pohľad na softvér so správou o zisteniach a návrhoch.",
+      "research_recommendation": "specify_testing_scope",
+      "review_ids": [
+        "C07"
+      ],
+      "ctas": [
+        {
+          "label": "Kontakt",
+          "target": "https://www.onlineasistent.sk/kontakt/",
+          "tested": false
+        }
+      ],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2024-04-07T10:06:12+00:00",
+      "in_main_navigation_observed": true,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/testovanie-softveru-a-aplikacii/",
+      "document_title": "Testovanie softvéru a aplikácií - Online asistent",
+      "h1": [
+        "Testovanie softvéru a aplikácií"
+      ],
+      "article_dates_declared": {
+        "article:modified_time": "2024-04-07T10:06:12+00:00"
+      }
+    },
+    {
+      "url": "https://www.onlineasistent.sk/aktivny-a-pasivny-telemarketing/",
+      "path": "/aktivny-a-pasivny-telemarketing/",
+      "kind": "service_legacy_or_parallel",
+      "topic": "acquisition_and_support",
+      "summary": "Doplnková stránka mimo hlavnej navigácie prekrýva dve služby.",
+      "research_recommendation": "resolve_overlap",
+      "review_ids": [
+        "C02",
+        "C04"
+      ],
+      "ctas": [
+        {
+          "label": "Kontakt",
+          "target": "https://www.onlineasistent.sk/kontakt/",
+          "tested": false
+        }
+      ],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2024-11-02T01:09:18+00:00",
+      "in_main_navigation_observed": false,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/aktivny-a-pasivny-telemarketing/",
+      "document_title": "Aktívny a pasívny telemarketing - Online asistent",
+      "h1": [
+        "Aktívny a pasívny telemarketing"
+      ],
+      "article_dates_declared": {
+        "article:modified_time": "2024-11-02T01:09:18+00:00"
+      }
+    },
+    {
+      "url": "https://www.onlineasistent.sk/obchod/",
+      "path": "/obchod/",
+      "kind": "commerce",
+      "topic": "shop",
+      "summary": "V načítanom verejnom HTML nebola zistená viditeľná produktová ponuka.",
+      "research_recommendation": "verify_intent",
+      "review_ids": [],
+      "ctas": [],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2024-11-25T18:43:33+00:00",
+      "in_main_navigation_observed": false,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/obchod/",
+      "document_title": "Obchod - Online asistent",
+      "h1": [
+        "Obchod"
+      ],
+      "article_dates_declared": {}
+    },
+    {
+      "url": "https://www.onlineasistent.sk/kosik/",
+      "path": "/kosik/",
+      "kind": "commerce",
+      "topic": "empty_cart",
+      "summary": "Prázdny košík s návratom do obchodu.",
+      "research_recommendation": "keep_only_if_needed",
+      "review_ids": [],
+      "ctas": [
+        {
+          "label": "Vrátiť sa do obchodu",
+          "target": "https://www.onlineasistent.sk/obchod/",
+          "tested": false
+        }
+      ],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2024-11-25T18:43:34+00:00",
+      "in_main_navigation_observed": false,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/kosik/",
+      "document_title": "Košík - Online asistent",
+      "h1": [],
+      "article_dates_declared": {}
+    },
+    {
+      "url": "https://www.onlineasistent.sk/kontrola-objednavky/",
+      "path": "/kontrola-objednavky/",
+      "kind": "commerce",
+      "topic": "checkout",
+      "summary": "Pri prázdnom košíku presmeruje na košík; platba nebola testovaná.",
+      "research_recommendation": "verify_later",
+      "review_ids": [],
+      "ctas": [],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2024-11-25T18:43:34+00:00",
+      "in_main_navigation_observed": false,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/kosik/",
+      "document_title": "Košík - Online asistent",
+      "h1": [],
+      "article_dates_declared": {}
+    },
+    {
+      "url": "https://www.onlineasistent.sk/moj-ucet/",
+      "path": "/moj-ucet/",
+      "kind": "commerce",
+      "topic": "login",
+      "summary": "Verejný prihlasovací formulár; žiadna autentifikácia ani obnova neboli použité.",
+      "research_recommendation": "keep_only_if_needed",
+      "review_ids": [],
+      "ctas": [],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2024-11-25T18:43:35+00:00",
+      "in_main_navigation_observed": false,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/moj-ucet/",
+      "document_title": "Môj účet - Online asistent",
+      "h1": [],
+      "article_dates_declared": {}
+    },
+    {
+      "url": "https://www.onlineasistent.sk/obchodny-zastupca-na-prenajom/",
+      "path": "/obchodny-zastupca-na-prenajom/",
+      "kind": "service",
+      "topic": "acquisition",
+      "summary": "Oslovovanie potenciálnych zákazníkov s ohľadom na potreby a pozitívny dojem.",
+      "research_recommendation": "preserve_and_specify",
+      "review_ids": [
+        "C01",
+        "C04"
+      ],
+      "ctas": [
+        {
+          "label": "Kontakt",
+          "target": "https://www.onlineasistent.sk/kontakt/",
+          "tested": false
+        }
+      ],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2025-09-12T15:01:58+00:00",
+      "in_main_navigation_observed": true,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/obchodny-zastupca-na-prenajom/",
+      "document_title": "Obchodný zástupca na prenájom - Online asistent",
+      "h1": [
+        "Obchodný zástupca na prenájom"
+      ],
+      "article_dates_declared": {
+        "article:modified_time": "2025-09-12T15:01:58+00:00"
+      }
+    },
+    {
+      "url": "https://www.onlineasistent.sk/operator-pre-online-chat/",
+      "path": "/operator-pre-online-chat/",
+      "kind": "service",
+      "topic": "chat_and_support",
+      "summary": "Nastavenie, obsluha, kvalifikácia a odovzdanie dopytov, šablóny, reporty, FAQ a individuálna cena.",
+      "research_recommendation": "preserve_and_verify",
+      "review_ids": [
+        "C05"
+      ],
+      "ctas": [
+        {
+          "label": "Prečítať článok",
+          "target": "https://www.onlineasistent.sk/online-chat-na-web-kedy-ho-zaviest-a-ako-vyuzit-naplno/",
+          "tested": false
+        },
+        {
+          "label": "Kontakt",
+          "target": "https://www.onlineasistent.sk/kontakt/",
+          "tested": false
+        }
+      ],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2025-10-14T15:48:30+00:00",
+      "in_main_navigation_observed": true,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/operator-pre-online-chat/",
+      "document_title": "Operátor pre online chat - Online asistent",
+      "h1": [
+        "Operátor pre online chat"
+      ],
+      "article_dates_declared": {
+        "article:modified_time": "2025-10-14T15:48:30+00:00"
+      }
+    },
+    {
+      "url": "https://www.onlineasistent.sk/certifikaty/",
+      "path": "/certifikaty/",
+      "kind": "evidence",
+      "topic": "training",
+      "summary": "Tri obrazové doklady vzdelávania s vysvetlením praktického prínosu.",
+      "research_recommendation": "verify_document_metadata",
+      "review_ids": [
+        "C08"
+      ],
+      "ctas": [],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2025-12-10T18:48:12+00:00",
+      "in_main_navigation_observed": true,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/certifikaty/",
+      "document_title": "Certifikáty - Online asistent",
+      "h1": [
+        "Certifikáty"
+      ],
+      "article_dates_declared": {
+        "article:modified_time": "2025-12-10T18:48:12+00:00"
+      }
+    },
+    {
+      "url": "https://www.onlineasistent.sk/moj-pribeh/",
+      "path": "/moj-pribeh/",
+      "kind": "presentation",
+      "topic": "professional_history",
+      "summary": "Existujúca prvá osoba; pracovná chronológia a zásada nenátlakovej komunikácie.",
+      "research_recommendation": "author_review",
+      "review_ids": [
+        "C01"
+      ],
+      "ctas": [
+        {
+          "label": "Kontakt",
+          "target": "https://www.onlineasistent.sk/kontakt/",
+          "tested": false
+        }
+      ],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2026-05-17T12:06:16+00:00",
+      "in_main_navigation_observed": true,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/moj-pribeh/",
+      "document_title": "Môj príbeh - Online asistent",
+      "h1": [
+        "Môj príbeh"
+      ],
+      "article_dates_declared": {
+        "article:modified_time": "2026-05-17T12:06:16+00:00"
+      }
+    },
+    {
+      "url": "https://www.onlineasistent.sk/blog/",
+      "path": "/blog/",
+      "kind": "article_index",
+      "topic": "know_how",
+      "summary": "Index štrnástich článkov; priestor na tematické usporiadanie.",
+      "research_recommendation": "preserve_and_categorize",
+      "review_ids": [],
+      "ctas": [
+        {
+          "label": "Kontaktuje ma",
+          "target": "https://www.onlineasistent.sk/kontakt/",
+          "tested": false
+        }
+      ],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2026-05-17T12:07:05+00:00",
+      "in_main_navigation_observed": true,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/blog/",
+      "document_title": "Blog - Online asistent",
+      "h1": [
+        "Blog"
+      ],
+      "article_dates_declared": {
+        "article:modified_time": "2026-05-17T12:07:05+00:00"
+      }
+    },
+    {
+      "url": "https://www.onlineasistent.sk/kontakt/",
+      "path": "/kontakt/",
+      "kind": "contact",
+      "topic": "inquiry",
+      "summary": "Verejné kontaktné a fakturačné informácie plus dopytový formulár; hodnoty sa sem neexportujú.",
+      "research_recommendation": "review_labels_and_information",
+      "review_ids": [
+        "C09"
+      ],
+      "ctas": [
+        {
+          "label": "Odoslať správu",
+          "target": "form_submission_not_tested",
+          "tested": false
+        }
+      ],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2026-05-17T18:24:19+00:00",
+      "in_main_navigation_observed": true,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/kontakt/",
+      "document_title": "Kontakt - Online asistent",
+      "h1": [
+        "Kontakt"
+      ],
+      "article_dates_declared": {
+        "article:modified_time": "2026-05-17T18:24:19+00:00"
+      }
+    },
+    {
+      "url": "https://www.onlineasistent.sk/moje-sluzby/",
+      "path": "/moje-sluzby/",
+      "kind": "service_index",
+      "topic": "current_services",
+      "summary": "Prehľad šiestich hlavných služieb; ich dnešné priority musí potvrdiť Martin.",
+      "research_recommendation": "restructure",
+      "review_ids": [
+        "C04"
+      ],
+      "ctas": [
+        {
+          "label": "Kontaktuje ma",
+          "target": "https://www.onlineasistent.sk/kontakt/",
+          "tested": false
+        }
+      ],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2026-10-01T23:24:20+00:00",
+      "in_main_navigation_observed": true,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/moje-sluzby/",
+      "document_title": "Moje služby - Online asistent",
+      "h1": [
+        "Služby online asistenta"
+      ],
+      "article_dates_declared": {
+        "article:modified_time": "2026-10-01T23:24:20+00:00"
+      }
+    },
+    {
+      "url": "https://www.onlineasistent.sk/ma-telemarketing-v-dnesnej-dobe-este-zmysel/",
+      "path": "/ma-telemarketing-v-dnesnej-dobe-este-zmysel/",
+      "kind": "article",
+      "topic": "client_communication",
+      "summary": "Praktické poradie podpory a následného predaja; dlhodobý vzťah s klientom.",
+      "research_recommendation": "preserve_and_add_case",
+      "review_ids": [],
+      "ctas": [],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2024-03-04T20:57:16+00:00",
+      "in_main_navigation_observed": false,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/ma-telemarketing-v-dnesnej-dobe-este-zmysel/",
+      "document_title": "Má telemarketing v dnešnej dobe ešte zmysel? - Online asistent",
+      "h1": [],
+      "article_dates_declared": {
+        "article:published_time": "2024-02-11T17:07:07+00:00",
+        "article:modified_time": "2024-03-04T20:57:16+00:00"
+      }
+    },
+    {
+      "url": "https://www.onlineasistent.sk/marketingove-hovory-sukromnym-osobam-maju-svoje-pravidla/",
+      "path": "/marketingove-hovory-sukromnym-osobam-maju-svoje-pravidla/",
+      "kind": "article",
+      "topic": "calling_rules",
+      "summary": "Dobový článok o pravidlách marketingových telefonátov súkromným osobám.",
+      "research_recommendation": "legal_and_date_review",
+      "review_ids": [
+        "C06"
+      ],
+      "ctas": [],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2024-04-01T11:31:58+00:00",
+      "in_main_navigation_observed": false,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/marketingove-hovory-sukromnym-osobam-maju-svoje-pravidla/",
+      "document_title": "Marketingové hovory súkromným osobám majú svoje pravidlá - Online asistent",
+      "h1": [],
+      "article_dates_declared": {
+        "article:published_time": "2024-04-01T11:31:56+00:00",
+        "article:modified_time": "2024-04-01T11:31:58+00:00"
+      }
+    },
+    {
+      "url": "https://www.onlineasistent.sk/preco-je-uzivatelske-testovanie-softveru-a-aplikacii-dolezite/",
+      "path": "/preco-je-uzivatelske-testovanie-softveru-a-aplikacii-dolezite/",
+      "kind": "article",
+      "topic": "software_and_real_estate",
+      "summary": "Autor uvádza spoluprácu s backOFFICE a pripomienkovanie funkcií eAML.",
+      "research_recommendation": "priority_interview_and_case",
+      "review_ids": [
+        "C07"
+      ],
+      "ctas": [],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2024-05-05T20:19:31+00:00",
+      "in_main_navigation_observed": false,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/preco-je-uzivatelske-testovanie-softveru-a-aplikacii-dolezite/",
+      "document_title": "Prečo je užívateľské testovanie softvéru a aplikácií dôležité? - Online asistent",
+      "h1": [],
+      "article_dates_declared": {
+        "article:published_time": "2024-05-05T20:19:31+00:00"
+      }
+    },
+    {
+      "url": "https://www.onlineasistent.sk/dlhodoby-cold-calling-moze-mat-efekt-aj-v-sucasnosti-neverite/",
+      "path": "/dlhodoby-cold-calling-moze-mat-efekt-aj-v-sucasnosti-neverite/",
+      "kind": "article",
+      "topic": "case_marketing_post",
+      "summary": "Konkrétny prípad dlhodobej akvizície, segmentácie a očakávaní pri MARKETING POST.",
+      "research_recommendation": "priority_case_with_permission",
+      "review_ids": [
+        "C10"
+      ],
+      "ctas": [],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2024-06-05T19:59:27+00:00",
+      "in_main_navigation_observed": false,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/dlhodoby-cold-calling-moze-mat-efekt-aj-v-sucasnosti-neverite/",
+      "document_title": "Dlhodobý Cold calling môže mať efekt aj v súčasnosti, neveríte? - Online asistent",
+      "h1": [],
+      "article_dates_declared": {
+        "article:published_time": "2024-06-05T19:59:26+00:00",
+        "article:modified_time": "2024-06-05T19:59:27+00:00"
+      }
+    },
+    {
+      "url": "https://www.onlineasistent.sk/navolavanie-studenych-kontaktov-v-lete-robit-ci-nie/",
+      "path": "/navolavanie-studenych-kontaktov-v-lete-robit-ci-nie/",
+      "kind": "article",
+      "topic": "sales_routine",
+      "summary": "Osobná skúsenosť so sezónnosťou, návykom a nastavením kapacity telefonovania.",
+      "research_recommendation": "preserve_as_practice",
+      "review_ids": [],
+      "ctas": [],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2024-08-03T18:51:21+00:00",
+      "in_main_navigation_observed": false,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/navolavanie-studenych-kontaktov-v-lete-robit-ci-nie/",
+      "document_title": "Navolávanie studených kontaktov v lete – robiť, či nie - Online asistent",
+      "h1": [],
+      "article_dates_declared": {
+        "article:published_time": "2024-08-03T18:51:20+00:00",
+        "article:modified_time": "2024-08-03T18:51:21+00:00"
+      }
+    },
+    {
+      "url": "https://www.onlineasistent.sk/kde-mozete-ziskat-databazu-kontaktov-pre-svojho-obchodnika/",
+      "path": "/kde-mozete-ziskat-databazu-kontaktov-pre-svojho-obchodnika/",
+      "kind": "article",
+      "topic": "database_quality",
+      "summary": "Praktické výberové kritériá firmy a porovnanie hotovej a vlastnej databázy.",
+      "research_recommendation": "priority_checklist",
+      "review_ids": [
+        "C06"
+      ],
+      "ctas": [],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2024-09-05T20:18:44+00:00",
+      "in_main_navigation_observed": false,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/kde-mozete-ziskat-databazu-kontaktov-pre-svojho-obchodnika/",
+      "document_title": "Kde môžete získať databázu kontaktov pre svojho obchodníka? - Online asistent",
+      "h1": [],
+      "article_dates_declared": {
+        "article:published_time": "2024-09-05T20:18:42+00:00",
+        "article:modified_time": "2024-09-05T20:18:44+00:00"
+      }
+    },
+    {
+      "url": "https://www.onlineasistent.sk/aktivny-telemarketing-preco-si-nerobim-statistiku-uspesnosti/",
+      "path": "/aktivny-telemarketing-preco-si-nerobim-statistiku-uspesnosti/",
+      "kind": "article",
+      "topic": "measurement",
+      "summary": "Vysvetľuje rozdiel medzi dopytom a obchodom, porovnateľnosť kampaní a opakované spolupráce.",
+      "research_recommendation": "priority_measurement_interview",
+      "review_ids": [
+        "C02",
+        "C11"
+      ],
+      "ctas": [],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2025-01-19T12:00:27+00:00",
+      "in_main_navigation_observed": false,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/aktivny-telemarketing-preco-si-nerobim-statistiku-uspesnosti/",
+      "document_title": "Aktívny telemarketing: Prečo si nerobím štatistiku úspešnosti? - Online asistent",
+      "h1": [],
+      "article_dates_declared": {
+        "article:published_time": "2024-11-01T21:25:43+00:00",
+        "article:modified_time": "2025-01-19T12:00:27+00:00"
+      }
+    },
+    {
+      "url": "https://www.onlineasistent.sk/marketing-a-starostlivost-o-zakaznikov-kluc-k-uspechu-v-2025/",
+      "path": "/marketing-a-starostlivost-o-zakaznikov-kluc-k-uspechu-v-2025/",
+      "kind": "article",
+      "topic": "marketing_and_retention",
+      "summary": "Plánovanie marketingu a starostlivosti s dobovým ekonomickým úvodom.",
+      "research_recommendation": "update_context_or_archive_as_dated",
+      "review_ids": [],
+      "ctas": [],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2025-01-19T13:22:48+00:00",
+      "in_main_navigation_observed": false,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/marketing-a-starostlivost-o-zakaznikov-kluc-k-uspechu-v-2025/",
+      "document_title": "Marketing a starostlivosť o zákazníkov: kľúč k úspechu v 2025 - Online asistent",
+      "h1": [],
+      "article_dates_declared": {
+        "article:published_time": "2025-01-19T12:50:16+00:00",
+        "article:modified_time": "2025-01-19T13:22:48+00:00"
+      }
+    },
+    {
+      "url": "https://www.onlineasistent.sk/vlastny-obchodny-zastupca-alebo-externy-pre-a-proti/",
+      "path": "/vlastny-obchodny-zastupca-alebo-externy-pre-a-proti/",
+      "kind": "article",
+      "topic": "sales_resourcing",
+      "summary": "Vlastný alebo externý obchodník; poznanie produktu a podmienky spolupráce.",
+      "research_recommendation": "resolve_article_overlap",
+      "review_ids": [],
+      "ctas": [],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2025-10-03T19:12:16+00:00",
+      "in_main_navigation_observed": false,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/vlastny-obchodny-zastupca-alebo-externy-pre-a-proti/",
+      "document_title": "Vlastný obchodný zástupca alebo externý? Pre a proti. - Online asistent",
+      "h1": [],
+      "article_dates_declared": {
+        "article:published_time": "2024-03-02T13:35:53+00:00",
+        "article:modified_time": "2025-10-03T19:12:16+00:00"
+      }
+    },
+    {
+      "url": "https://www.onlineasistent.sk/externy-obchodny-zastupca-vs-interny-tim-kedy-sa-co-oplati/",
+      "path": "/externy-obchodny-zastupca-vs-interny-tim-kedy-sa-co-oplati/",
+      "kind": "article",
+      "topic": "sales_resourcing",
+      "summary": "Rozhodovacia štruktúra interného a externého predaja vrátane ich kombinácie.",
+      "research_recommendation": "candidate_main_decision_article",
+      "review_ids": [],
+      "ctas": [],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2025-10-05T13:27:10+00:00",
+      "in_main_navigation_observed": false,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/externy-obchodny-zastupca-vs-interny-tim-kedy-sa-co-oplati/",
+      "document_title": "Externý obchodný zástupca vs. interný tím – kedy sa čo oplatí? - Online asistent",
+      "h1": [],
+      "article_dates_declared": {
+        "article:published_time": "2025-10-05T13:27:09+00:00",
+        "article:modified_time": "2025-10-05T13:27:10+00:00"
+      }
+    },
+    {
+      "url": "https://www.onlineasistent.sk/online-chat-na-web-kedy-ho-zaviest-a-ako-vyuzit-naplno/",
+      "path": "/online-chat-na-web-kedy-ho-zaviest-a-ako-vyuzit-naplno/",
+      "kind": "article",
+      "topic": "live_chat",
+      "summary": "Nástroje a prevádzka chatu, vlastná skúsenosť v cestovnej kancelárii a prechod na telefón.",
+      "research_recommendation": "preserve_practice_verify_claims",
+      "review_ids": [
+        "C12"
+      ],
+      "ctas": [],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2025-11-14T12:27:50+00:00",
+      "in_main_navigation_observed": false,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/online-chat-na-web-kedy-ho-zaviest-a-ako-vyuzit-naplno/",
+      "document_title": "Online chat na web: Kedy ho zaviesť a ako využiť naplno - Online asistent",
+      "h1": [],
+      "article_dates_declared": {
+        "article:published_time": "2025-09-10T15:41:42+00:00",
+        "article:modified_time": "2025-11-14T12:27:50+00:00"
+      }
+    },
+    {
+      "url": "https://www.onlineasistent.sk/ako-online-chat-zvysuje-doveru-zakaznikov-a-predaje-e-shopu/",
+      "path": "/ako-online-chat-zvysuje-doveru-zakaznikov-a-predaje-e-shopu/",
+      "kind": "article",
+      "topic": "live_chat",
+      "summary": "Návyky operátora, otázky klientov ako spätná väzba a odovzdanie zložitej požiadavky.",
+      "research_recommendation": "candidate_checklist",
+      "review_ids": [
+        "C13"
+      ],
+      "ctas": [],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2025-11-14T15:40:41+00:00",
+      "in_main_navigation_observed": false,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/ako-online-chat-zvysuje-doveru-zakaznikov-a-predaje-e-shopu/",
+      "document_title": "Ako online chat zvyšuje dôveru zákazníkov a predaje e-shopu - Online asistent",
+      "h1": [],
+      "article_dates_declared": {
+        "article:published_time": "2025-11-14T15:12:21+00:00",
+        "article:modified_time": "2025-11-14T15:40:41+00:00"
+      }
+    },
+    {
+      "url": "https://www.onlineasistent.sk/5-chyb-pri-pridavani-produktov-na-e-shop-ktore-brzdia-predaj/",
+      "path": "/5-chyb-pri-pridavani-produktov-na-e-shop-ktore-brzdia-predaj/",
+      "kind": "article",
+      "topic": "product_data",
+      "summary": "Kontrola popisov, fotografií, kategórií, parametrov a SEO produktových dát.",
+      "research_recommendation": "secondary_track_if_service_confirmed",
+      "review_ids": [],
+      "ctas": [],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2025-12-13T00:15:53+00:00",
+      "in_main_navigation_observed": false,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/5-chyb-pri-pridavani-produktov-na-e-shop-ktore-brzdia-predaj/",
+      "document_title": "5 najčastejších chýb pri pridávaní produktov na e-shop - Online asistent",
+      "h1": [],
+      "article_dates_declared": {
+        "article:published_time": "2025-12-12T19:35:09+00:00",
+        "article:modified_time": "2025-12-13T00:15:53+00:00"
+      }
+    },
+    {
+      "url": "https://www.onlineasistent.sk/databaza-firiem-a-gdpr-ako-legalne-oslovit-novych-klientov/",
+      "path": "/databaza-firiem-a-gdpr-ako-legalne-oslovit-novych-klientov/",
+      "kind": "article",
+      "topic": "data_and_privacy",
+      "summary": "Téma pôvodu kontaktu, relevantnosti, námietky a právneho základu.",
+      "research_recommendation": "legal_review_before_reuse",
+      "review_ids": [
+        "C06"
+      ],
+      "ctas": [],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2026-01-16T20:06:53+00:00",
+      "in_main_navigation_observed": false,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/databaza-firiem-a-gdpr-ako-legalne-oslovit-novych-klientov/",
+      "document_title": "Databáza firiem a GDPR: Ako legálne osloviť nových klientov? - Online asistent",
+      "h1": [],
+      "article_dates_declared": {
+        "article:published_time": "2026-01-16T20:06:51+00:00",
+        "article:modified_time": "2026-01-16T20:06:53+00:00"
+      }
+    },
+    {
+      "url": "https://www.onlineasistent.sk/category/nezaradene/",
+      "path": "/category/nezaradene/",
+      "kind": "taxonomy_archive",
+      "topic": "uncategorized",
+      "summary": "Všeobecný archív článkov bez tematického názvu.",
+      "research_recommendation": "recategorize",
+      "review_ids": [],
+      "ctas": [],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2026-01-16T20:06:53+00:00",
+      "in_main_navigation_observed": false,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/category/nezaradene/",
+      "document_title": "Archívy Nezaradené - Online asistent",
+      "h1": [
+        "Nezaradené"
+      ],
+      "article_dates_declared": {}
+    },
+    {
+      "url": "https://www.onlineasistent.sk/tag/obchodny-zastupca/",
+      "path": "/tag/obchodny-zastupca/",
+      "kind": "taxonomy_archive",
+      "topic": "sales",
+      "summary": "Archív jedného článku; paralelný tag s názvom bez diakritiky.",
+      "research_recommendation": "consolidate_taxonomy",
+      "review_ids": [],
+      "ctas": [],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2025-10-03T19:12:16+00:00",
+      "in_main_navigation_observed": false,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/tag/obchodny-zastupca/",
+      "document_title": "Archívy obchodný zástupca - Online asistent",
+      "h1": [
+        "obchodný zástupca"
+      ],
+      "article_dates_declared": {}
+    },
+    {
+      "url": "https://www.onlineasistent.sk/tag/obchodny-zastupca-2/",
+      "path": "/tag/obchodny-zastupca-2/",
+      "kind": "taxonomy_archive",
+      "topic": "sales",
+      "summary": "Rovnaký článok ako paralelný tag s diakritikou.",
+      "research_recommendation": "consolidate_taxonomy",
+      "review_ids": [],
+      "ctas": [],
+      "in_sitemap": true,
+      "sitemap_lastmod_declared": "2025-10-03T19:12:16+00:00",
+      "in_main_navigation_observed": false,
+      "checked_on": "2026-10-22",
+      "http_status": 200,
+      "final_url": "https://www.onlineasistent.sk/tag/obchodny-zastupca-2/",
+      "document_title": "Archívy obchodny zastupca - Online asistent",
+      "h1": [
+        "obchodny zastupca"
+      ],
+      "article_dates_declared": {}
+    },
+    {
+      "url": "https://www.onlineasistent.sk/skolenie-na-backoffice/",
+      "path": "/skolenie-na-backoffice/",
+      "kind": "linked_retired_page",
+      "topic": "real_estate_training",
+      "summary": "Odkaz z pätičky, cieľ aktuálne 410; aktívnosť služby nepotvrdená.",
+      "research_recommendation": "ask_owner",
+      "review_ids": [
+        "C03"
+      ],
+      "ctas": [],
+      "in_sitemap": false,
+      "sitemap_lastmod_declared": null,
+      "in_main_navigation_observed": false,
+      "checked_on": "2026-10-22",
+      "http_status": 410,
+      "final_url": "https://www.onlineasistent.sk/skolenie-na-backoffice/",
+      "document_title": null,
+      "h1": []
+    }
+  ],
+  "claim_review": [
+    {
+      "id": "C01",
+      "kind": "timeline",
+      "existing_statement": "Statická dĺžka praxe na domove verzus začiatok telemarketingu 2014 a IT 2009.",
+      "next_check": "Potvrdiť druh a časové obdobie praxe; nepočítať z nich jedno spoločné číslo.",
+      "sources": [
+        "https://www.onlineasistent.sk/",
+        "https://www.onlineasistent.sk/moj-pribeh/",
+        "https://www.onlineasistent.sk/obchodny-zastupca-na-prenajom/"
+      ],
+      "status": "unverified_for_new_publication"
+    },
+    {
+      "id": "C02",
+      "kind": "metric",
+      "existing_statement": "78 % opakovaných/dlhodobých klientov je vlastné tvrdenie bez metodickej prílohy.",
+      "next_check": "Získať obdobie, menovateľ, definíciu a aktuálnosť.",
+      "sources": [
+        "https://www.onlineasistent.sk/aktivny-a-pasivny-telemarketing/",
+        "https://www.onlineasistent.sk/aktivny-telemarketing-preco-si-nerobim-statistiku-uspesnosti/"
+      ],
+      "status": "unverified_for_new_publication"
+    },
+    {
+      "id": "C03",
+      "kind": "offer_availability",
+      "existing_statement": "Školenie backOFFICE je v pätičke, ale cieľ vracia 410.",
+      "next_check": "Dostupnosť, oprávnenie a rozsah služby musí potvrdiť Martin.",
+      "sources": [
+        "https://www.onlineasistent.sk/skolenie-na-backoffice/"
+      ],
+      "status": "unverified_for_new_publication"
+    },
+    {
+      "id": "C04",
+      "kind": "commercial_commitment",
+      "existing_statement": "Flexibilita, úspora a vrátenie nevyužitých peňazí sú v starých službách.",
+      "next_check": "Potvrdiť dnešné obchodné podmienky a kapacitu.",
+      "sources": [
+        "https://www.onlineasistent.sk/moje-sluzby/"
+      ],
+      "status": "unverified_for_new_publication"
+    },
+    {
+      "id": "C05",
+      "kind": "service_capacity",
+      "existing_statement": "Chat uvádza reakcie v priebehu pár minút, večery/víkendy a jazyky podľa dohody.",
+      "next_check": "Potvrdiť kapacitu a znenie záväzkov pre konkrétny rozsah.",
+      "sources": [
+        "https://www.onlineasistent.sk/operator-pre-online-chat/"
+      ],
+      "status": "unverified_for_new_publication"
+    },
+    {
+      "id": "C06",
+      "kind": "legal_and_source_review",
+      "existing_statement": "Databázy a marketingové hovory obsahujú časovo citlivé právne výklady.",
+      "next_check": "Pred novým publikovaním preveriť aktuálne primárne právo a jednotlivé scenáre; toto nie je právny audit.",
+      "sources": [
+        "https://www.onlineasistent.sk/vytvorenie-databazy/",
+        "https://www.onlineasistent.sk/marketingove-hovory-sukromnym-osobam-maju-svoje-pravidla/",
+        "https://www.onlineasistent.sk/databaza-firiem-a-gdpr-ako-legalne-oslovit-novych-klientov/"
+      ],
+      "status": "unverified_for_new_publication"
+    },
+    {
+      "id": "C07",
+      "kind": "professional_scope",
+      "existing_statement": "Používateľské testovanie a autorova skúsenosť s backOFFICE/eAML.",
+      "next_check": "Potvrdiť rozsah, povolené príklady a trhové tvrdenia; nerozšíriť na všetky fázy technického QA.",
+      "sources": [
+        "https://www.onlineasistent.sk/testovanie-softveru-a-aplikacii/",
+        "https://www.onlineasistent.sk/preco-je-uzivatelske-testovanie-softveru-a-aplikacii-dolezite/"
+      ],
+      "status": "unverified_for_new_publication"
+    },
+    {
+      "id": "C08",
+      "kind": "qualification",
+      "existing_statement": "Tri obrazové certifikáty s textom o prínose vzdelávania.",
+      "next_check": "Vizuálne prečítať názov, organizátora, dátum a rozsah; nahratie súboru nie je dátum absolvovania.",
+      "sources": [
+        "https://www.onlineasistent.sk/certifikaty/"
+      ],
+      "status": "unverified_for_new_publication"
+    },
+    {
+      "id": "C09",
+      "kind": "contact_flow",
+      "existing_statement": "Kontaktné informácie a formulár boli len prečítané.",
+      "next_check": "Overiť informačné texty a doručenie pri neskoršej autorizovanej implementácii.",
+      "sources": [
+        "https://www.onlineasistent.sk/kontakt/"
+      ],
+      "status": "unverified_for_new_publication"
+    },
+    {
+      "id": "C10",
+      "kind": "case_evidence",
+      "existing_statement": "Prvá zákazka podľa autora po troch mesiacoch spolupráce s MARKETING POST.",
+      "next_check": "Vyžiadať rozsah práce, výsledky, časový kontext a klientovo oprávnenie na nové použitie.",
+      "sources": [
+        "https://www.onlineasistent.sk/dlhodoby-cold-calling-moze-mat-efekt-aj-v-sucasnosti-neverite/"
+      ],
+      "status": "unverified_for_new_publication"
+    },
+    {
+      "id": "C11",
+      "kind": "benchmark",
+      "existing_statement": "Článok uvádza všeobecné rozpätie úspešnosti 2–10 % bez presných zdrojov.",
+      "next_check": "Nedávať ho do novej ponuky ako benchmark bez populácie a definície úspechu.",
+      "sources": [
+        "https://www.onlineasistent.sk/aktivny-telemarketing-preco-si-nerobim-statistiku-uspesnosti/"
+      ],
+      "status": "unverified_for_new_publication"
+    },
+    {
+      "id": "C12",
+      "kind": "statistical_claim",
+      "existing_statement": "Článok spája 70 % nedokončených objednávok s chýbajúcou informáciou v reálnom čase.",
+      "next_check": "Vyžiadať presný zdroj a nepreberať príčinný výklad bez kontroly.",
+      "sources": [
+        "https://www.onlineasistent.sk/online-chat-na-web-kedy-ho-zaviest-a-ako-vyuzit-naplno/"
+      ],
+      "status": "unverified_for_new_publication"
+    },
+    {
+      "id": "C13",
+      "kind": "statistical_claim",
+      "existing_statement": "Článok uvádza 40–45 % zákazníkov preferujúcich chat bez presného prieskumu.",
+      "next_check": "Overiť zdroj, dátum a populáciu.",
+      "sources": [
+        "https://www.onlineasistent.sk/ako-online-chat-zvysuje-doveru-zakaznikov-a-predaje-e-shopu/"
+      ],
+      "status": "unverified_for_new_publication"
+    }
+  ],
+  "assets": [
+    {
+      "kind": "existing_logo",
+      "url": "https://www.onlineasistent.sk/wp-content/uploads/2025/10/logo-horizontal-white.png",
+      "source_page": "https://www.onlineasistent.sk/",
+      "html_declared_width": 367,
+      "html_declared_height": 97,
+      "rights_status": "requires_owner_and_license_review",
+      "downloaded": false,
+      "visually_verified_by_this_inventory": false
+    },
+    {
+      "kind": "portrait",
+      "url": "https://www.onlineasistent.sk/wp-content/uploads/2026/05/Martin-foto-optimized-1-scaled.webp",
+      "source_page": "https://www.onlineasistent.sk/moj-pribeh/",
+      "html_declared_width": 1699,
+      "html_declared_height": 2560,
+      "rights_status": "requires_owner_and_license_review",
+      "downloaded": false,
+      "visually_verified_by_this_inventory": false
+    },
+    {
+      "kind": "existing_photo",
+      "url": "https://www.onlineasistent.sk/wp-content/uploads/2022/12/OnlineAsistentWeb.jpg",
+      "source_page": "https://www.onlineasistent.sk/",
+      "html_declared_width": 570,
+      "html_declared_height": 380,
+      "rights_status": "requires_owner_and_license_review",
+      "downloaded": false,
+      "visually_verified_by_this_inventory": false
+    },
+    {
+      "kind": "database_service_photo",
+      "url": "https://www.onlineasistent.sk/wp-content/uploads/2022/12/OnlineAsistent-3-scaled.jpg",
+      "source_page": "https://www.onlineasistent.sk/vytvorenie-databazy/",
+      "html_declared_width": null,
+      "html_declared_height": null,
+      "rights_status": "requires_owner_and_license_review",
+      "downloaded": false,
+      "visually_verified_by_this_inventory": false
+    },
+    {
+      "kind": "chat_service_photo",
+      "url": "https://www.onlineasistent.sk/wp-content/uploads/2022/12/OnlineAsistent-7-scaled.jpg",
+      "source_page": "https://www.onlineasistent.sk/operator-pre-online-chat/",
+      "html_declared_width": 2560,
+      "html_declared_height": 1707,
+      "rights_status": "requires_owner_and_license_review",
+      "downloaded": false,
+      "visually_verified_by_this_inventory": false
+    },
+    {
+      "kind": "testing_illustration",
+      "url": "https://www.onlineasistent.sk/wp-content/uploads/2024/03/Testovanie-softveru-a-aplikacii.jpg",
+      "source_page": "https://www.onlineasistent.sk/testovanie-softveru-a-aplikacii/",
+      "html_declared_width": null,
+      "html_declared_height": null,
+      "rights_status": "requires_owner_and_license_review",
+      "downloaded": false,
+      "visually_verified_by_this_inventory": false
+    },
+    {
+      "kind": "ai_certificate",
+      "url": "https://www.onlineasistent.sk/wp-content/uploads/2025/12/Online-asistent-AI-kurz-scaled.jpg",
+      "source_page": "https://www.onlineasistent.sk/certifikaty/",
+      "html_declared_width": 2560,
+      "html_declared_height": 1809,
+      "rights_status": "requires_owner_and_license_review",
+      "downloaded": false,
+      "visually_verified_by_this_inventory": false
+    },
+    {
+      "kind": "acquisition_certificate",
+      "url": "https://www.onlineasistent.sk/wp-content/uploads/2023/09/certifikat-Ako-zvysit-uspesnost-akvizicnych-1.jpg",
+      "source_page": "https://www.onlineasistent.sk/certifikaty/",
+      "html_declared_width": 1190,
+      "html_declared_height": 1683,
+      "rights_status": "requires_owner_and_license_review",
+      "downloaded": false,
+      "visually_verified_by_this_inventory": false
+    },
+    {
+      "kind": "support_certificate",
+      "url": "https://www.onlineasistent.sk/wp-content/uploads/2023/09/Zlepsenie-zakaznickej-podpory.jpg",
+      "source_page": "https://www.onlineasistent.sk/certifikaty/",
+      "html_declared_width": 1190,
+      "html_declared_height": 1683,
+      "rights_status": "requires_owner_and_license_review",
+      "downloaded": false,
+      "visually_verified_by_this_inventory": false
+    }
+  ],
+  "planned_not_existing": [
+    "New personal brand identity",
+    "Joint podcast",
+    "New data-backed articles",
+    "New digital product catalogue",
+    "New site and working purchase/delivery path"
+  ],
+  "limitations": [
+    "Sitemap count is not proof of all WordPress URLs.",
+    "Sitemap lastmod is a declared modified timestamp, not a publication date.",
+    "Current page text is not independent proof of claimed business results.",
+    "Certificates and image rights require visual and owner review.",
+    "Commerce was observed only without authentication and with an empty cart.",
+    "Full raw HTML and contact values are not retained in this content inventory."
+  ]
+}

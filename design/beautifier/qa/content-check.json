@@ -1,0 +1,10 @@
+{
+  "scope": "Exact text and order of all data-source-copy paragraphs; titles/labels additionally audited by content agent91/91",
+  "paragraphs": 22,
+  "allExact": true,
+  "nbspCount": 20,
+  "localAssetReferences": 27,
+  "allLocalReferencesExist": true,
+  "htmlSha256": "2d94f186fc7cb0d665d9100db83a515ad434fe78c1e82caddaf29deca501bdae",
+  "sourceSha256": "a82c03270b3248b1a70296335dc7f2c8a3ed5eb24023882dd381f763a960ca6e"
+}
