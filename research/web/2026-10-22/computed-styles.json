@@ -1,0 +1,750 @@
+{
+  "capturedAt": "2026-10-22T15:04:31.955Z",
+  "tool": "Codex in-app browser, read-only DOM/computed CSS",
+  "states": [
+    {
+      "body": {
+        "background": "rgb(243, 246, 246)",
+        "color": "rgb(76, 82, 83)",
+        "font": "Rubik, sans-serif",
+        "lineHeight": "29.7143px",
+        "size": "16px"
+      },
+      "buttons": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 179, 248)",
+          "fontSize": "14px",
+          "height": 48,
+          "radius": "4px",
+          "text": "Kontaktujte ma"
+        },
+        {
+          "background": "rgba(255, 255, 255, 0)",
+          "color": "rgba(255, 255, 255, 0.78)",
+          "fontSize": "14px",
+          "height": 48,
+          "radius": "4px",
+          "text": "Viac o mne"
+        },
+        {
+          "background": "rgb(0, 179, 248)",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "14px",
+          "height": 46,
+          "radius": "4px",
+          "text": "Zobraziť viac"
+        },
+        {
+          "background": "rgb(0, 179, 248)",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "14px",
+          "height": 46,
+          "radius": "4px",
+          "text": "Zobraziť viac"
+        },
+        {
+          "background": "rgb(0, 179, 248)",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "14px",
+          "height": 46,
+          "radius": "4px",
+          "text": "Zobraziť viac"
+        },
+        {
+          "background": "rgb(0, 179, 248)",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "14px",
+          "height": 46,
+          "radius": "4px",
+          "text": "Zobraziť viac"
+        },
+        {
+          "background": "rgb(0, 179, 248)",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "14px",
+          "height": 46,
+          "radius": "4px",
+          "text": "Zobraziť viac"
+        },
+        {
+          "background": "rgb(0, 179, 248)",
+          "color": "rgb(255, 255, 255)",
+          "fontSize": "14px",
+          "height": 46,
+          "radius": "4px",
+          "text": "Zobraziť viac"
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 179, 248)",
+          "fontSize": "14px",
+          "height": 46,
+          "radius": "4px",
+          "text": "Zobraziť viac"
+        }
+      ],
+      "generators": [
+        "WordPress 7.1.3",
+        "WooCommerce 11.2.1",
+        "Site Kit by Google 1.190.0",
+        "Elementor 4.3.5; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap"
+      ],
+      "headings": [
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "84px",
+          "size": "60px",
+          "tag": "H1",
+          "text": "Online asistent",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "62.4px",
+          "size": "48px",
+          "tag": "H2",
+          "text": "Mo.  Martin Barczi",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "62.4px",
+          "size": "48px",
+          "tag": "H2",
+          "text": "Služby online asistenta",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "41.6px",
+          "size": "32px",
+          "tag": "H3",
+          "text": "Vytvorenie databázy z verejne prístupných zdrojov",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "41.6px",
+          "size": "32px",
+          "tag": "H3",
+          "text": "Obchodný zástupca na prenájom - navolávanie studených kontaktov",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "41.6px",
+          "size": "32px",
+          "tag": "H3",
+          "text": "Zákaznícka podpora – starostlivosť o vašich súčasných klientov",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "41.6px",
+          "size": "32px",
+          "tag": "H3",
+          "text": "Operátor pre online chat",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "41.6px",
+          "size": "32px",
+          "tag": "H3",
+          "text": "Vkladanie/nahadzovanie produktov na e-shop",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "41.6px",
+          "size": "32px",
+          "tag": "H3",
+          "text": "Testovanie softvéru a aplikácií",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "62.4px",
+          "size": "48px",
+          "tag": "H2",
+          "text": "Spolupráca s online asistentom",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "41.6px",
+          "size": "32px",
+          "tag": "H3",
+          "text": "Kontakt",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "41.6px",
+          "size": "32px",
+          "tag": "H3",
+          "text": "Online stretnutie",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "41.6px",
+          "size": "32px",
+          "tag": "H3",
+          "text": "Cenová ponuka",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "41.6px",
+          "size": "32px",
+          "tag": "H3",
+          "text": "Akceptácia cenovej ponuky",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "41.6px",
+          "size": "32px",
+          "tag": "H3",
+          "text": "Vypracovanie",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "62.4px",
+          "size": "48px",
+          "tag": "H2",
+          "text": "Prečo online asistent",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "62.4px",
+          "size": "48px",
+          "tag": "H2",
+          "text": "O mne",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "62.4px",
+          "size": "48px",
+          "tag": "H2",
+          "text": "Referencie",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "41.6px",
+          "size": "32px",
+          "tag": "H3",
+          "text": "Cenová ponuka",
+          "weight": "700"
+        }
+      ],
+      "images": [
+        {
+          "alt": "Revisit consent button",
+          "height": 36,
+          "src": "https://cdn-cookieyes.com/assets/images/revisit.svg",
+          "width": 36
+        },
+        {
+          "alt": "Close",
+          "height": 10,
+          "src": "https://cdn-cookieyes.com/assets/images/close.svg",
+          "width": 10
+        },
+        {
+          "alt": "Cookieyes logo",
+          "height": 13,
+          "src": "https://cdn-cookieyes.com/assets/images/poweredbtcky.svg",
+          "width": 78
+        },
+        {
+          "alt": "ONLINE ASISTENT - MARTIN BARCZI®",
+          "height": 48,
+          "src": "https://www.onlineasistent.sk/wp-content/uploads/2025/10/logo-horizontal-white-180x48.png",
+          "width": 180
+        },
+        {
+          "alt": "ONLINE ASISTENT - MARTIN BARCZI®",
+          "height": 48,
+          "src": "https://www.onlineasistent.sk/wp-content/uploads/2025/10/logo-horizontal-white-180x48.png",
+          "width": 180
+        },
+        {
+          "alt": "Vytvorenie databázy z verejne prístupných zdrojov",
+          "height": 380,
+          "src": "https://www.onlineasistent.sk/wp-content/uploads/2022/12/OnlineAsistentWeb.jpg",
+          "width": 570
+        },
+        {
+          "alt": "Akvizícia - navolávanie studených kontaktov",
+          "height": 380,
+          "src": "https://www.onlineasistent.sk/wp-content/uploads/2022/12/OnlineAsistentWeb2.jpg",
+          "width": 570
+        },
+        {
+          "alt": "Zákaznícka podpora – starostlivosť o vašich súčasných klientov",
+          "height": 379,
+          "src": "https://www.onlineasistent.sk/wp-content/uploads/2022/12/OnlineAsistentWeb6.jpg",
+          "width": 570
+        },
+        {
+          "alt": "blank",
+          "height": 1,
+          "src": "https://www.onlineasistent.sk/wp-content/plugins/wp-fastest-cache-premium/pro/images/blank.gif",
+          "width": 1
+        },
+        {
+          "alt": "Vkladanie/nahadzovanie produktov na e-shop",
+          "height": 1,
+          "src": "https://www.onlineasistent.sk/wp-content/plugins/wp-fastest-cache-premium/pro/images/blank.gif",
+          "width": 1
+        },
+        {
+          "alt": "Testovanie softvéru a aplikácií",
+          "height": 1,
+          "src": "https://www.onlineasistent.sk/wp-content/plugins/wp-fastest-cache-premium/pro/images/blank.gif",
+          "width": 1
+        },
+        {
+          "alt": "Vkladanie/nahadzovanie produktov na e-shop",
+          "height": 1,
+          "src": "https://www.onlineasistent.sk/wp-content/plugins/wp-fastest-cache-premium/pro/images/blank.gif",
+          "width": 1
+        },
+        {
+          "alt": "ONLINE ASISTENT - MARTIN BARCZI®",
+          "height": 1,
+          "src": "https://www.onlineasistent.sk/wp-content/plugins/wp-fastest-cache-premium/pro/images/blank.gif",
+          "width": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "url": "https://www.onlineasistent.sk/"
+        },
+        {
+          "text": "Domov",
+          "url": "https://www.onlineasistent.sk/"
+        },
+        {
+          "text": "Môj príbeh",
+          "url": "https://www.onlineasistent.sk/moj-pribeh/"
+        },
+        {
+          "text": "Moje služby",
+          "url": "https://www.onlineasistent.sk/moje-sluzby/"
+        },
+        {
+          "text": "Obchodný zástupca na prenájom",
+          "url": "https://www.onlineasistent.sk/obchodny-zastupca-na-prenajom/"
+        },
+        {
+          "text": "Operátor pre online chat",
+          "url": "https://www.onlineasistent.sk/operator-pre-online-chat/"
+        },
+        {
+          "text": "Vkladanie produktov na e-shop",
+          "url": "https://www.onlineasistent.sk/vkladanie-produktov-na-eshop/"
+        },
+        {
+          "text": "Vytvorenie databázy z verejne prístupných zdrojov",
+          "url": "https://www.onlineasistent.sk/vytvorenie-databazy/"
+        },
+        {
+          "text": "Zákaznícka podpora – starostlivosť o vašich súčasných klientov",
+          "url": "https://www.onlineasistent.sk/zakaznicka-podpora/"
+        },
+        {
+          "text": "Testovanie softvéru a aplikácií",
+          "url": "https://www.onlineasistent.sk/testovanie-softveru-a-aplikacii/"
+        },
+        {
+          "text": "Certifikáty",
+          "url": "https://www.onlineasistent.sk/certifikaty/"
+        },
+        {
+          "text": "Blog",
+          "url": "https://www.onlineasistent.sk/blog/"
+        },
+        {
+          "text": "Kontakt",
+          "url": "https://www.onlineasistent.sk/kontakt/"
+        },
+        {
+          "text": "",
+          "url": "https://www.onlineasistent.sk/"
+        },
+        {
+          "text": "Domov",
+          "url": "https://www.onlineasistent.sk/"
+        },
+        {
+          "text": "Môj príbeh",
+          "url": "https://www.onlineasistent.sk/moj-pribeh/"
+        },
+        {
+          "text": "Moje služby",
+          "url": "https://www.onlineasistent.sk/moje-sluzby/"
+        },
+        {
+          "text": "Obchodný zástupca na prenájom",
+          "url": "https://www.onlineasistent.sk/obchodny-zastupca-na-prenajom/"
+        },
+        {
+          "text": "Operátor pre online chat",
+          "url": "https://www.onlineasistent.sk/operator-pre-online-chat/"
+        },
+        {
+          "text": "Vkladanie produktov na e-shop",
+          "url": "https://www.onlineasistent.sk/vkladanie-produktov-na-eshop/"
+        },
+        {
+          "text": "Vytvorenie databázy z verejne prístupných zdrojov",
+          "url": "https://www.onlineasistent.sk/vytvorenie-databazy/"
+        },
+        {
+          "text": "Zákaznícka podpora – starostlivosť o vašich súčasných klientov",
+          "url": "https://www.onlineasistent.sk/zakaznicka-podpora/"
+        },
+        {
+          "text": "Testovanie softvéru a aplikácií",
+          "url": "https://www.onlineasistent.sk/testovanie-softveru-a-aplikacii/"
+        },
+        {
+          "text": "Certifikáty",
+          "url": "https://www.onlineasistent.sk/certifikaty/"
+        },
+        {
+          "text": "Blog",
+          "url": "https://www.onlineasistent.sk/blog/"
+        },
+        {
+          "text": "Kontakt",
+          "url": "https://www.onlineasistent.sk/kontakt/"
+        }
+      ],
+      "scriptUrls": [
+        "https://www.googletagmanager.com/gtag/js?id=AW-11060951193&cx=c&gtm=4e6ak1",
+        "https://www.googletagmanager.com/gtag/js?id=GT-K4V6D86&cx=c&gtm=4e6ak1",
+        "https://www.googletagmanager.com/gtag/js?id=G-TC6Q3CT16B",
+        "https://www.googletagmanager.com/gtag/js?id=GT-K4V6D86",
+        "https://cdn-cookieyes.com/client_data/4b699c968bc5dc1fe39549a7/banner.js",
+        "https://www.onlineasistent.sk/wp-content/plugins/elementor/assets/js/chunks/section-stretched-section.min.js?ver=4.3.5",
+        "https://www.onlineasistent.sk/wp-content/plugins/elementor/assets/js/chunks/background-slideshow.min.js?ver=4.3.5",
+        "https://www.onlineasistent.sk/wp-content/plugins/elementor/assets/js/chunks/background-video.min.js?ver=4.3.5",
+        "https://www.onlineasistent.sk/wp-content/plugins/elementor/assets/js/chunks/text-editor.min.js?ver=4.3.5",
+        "https://cdn-cookieyes.com/client_data/4b699c968bc5dc1fe39549a7/script.js",
+        "https://www.onlineasistent.sk/wp-content/cache/wpfc-minified/f2fhgft5/c0nnz.js",
+        "https://www.onlineasistent.sk/wp-content/cache/wpfc-minified/100uw4ph/c0nnz.js",
+        "https://www.onlineasistent.sk/wp-content/cache/wpfc-minified/qvd6e821/c0noh.js",
+        "https://www.onlineasistent.sk/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.3.5",
+        "https://www.onlineasistent.sk/wp-content/cache/wpfc-minified/q7vbbw2n/c0nnz.js",
+        "https://www.onlineasistent.sk/wp-content/cache/wpfc-minified/2ztfoy4i/c0nnz.js",
+        "https://www.onlineasistent.sk/wp-content/cache/wpfc-minified/zyt5l5h/c0nnz.js",
+        "https://www.onlineasistent.sk/wp-content/cache/wpfc-minified/6v3ds1ax/c0noh.js",
+        "https://www.onlineasistent.sk/wp-content/cache/wpfc-minified/6jdwrzdo/c0nnz.js",
+        "https://www.onlineasistent.sk/wp-content/cache/wpfc-minified/esxlvi08/c0nnz.js",
+        "https://www.onlineasistent.sk/wp-content/cache/wpfc-minified/l0agbsdm/c0nnz.js",
+        "https://www.onlineasistent.sk/wp-content/cache/wpfc-minified/m9oy9ees/c0nnz.js",
+        "https://www.onlineasistent.sk/wp-content/cache/wpfc-minified/6ki83pxj/c0noh.js",
+        "https://www.onlineasistent.sk/wp-content/cache/wpfc-minified/6wy2caw0/c0noh.js",
+        "https://www.onlineasistent.sk/wp-content/cache/wpfc-minified/6kg85qme/c0noh.js"
+      ],
+      "stylesheetUrls": [
+        "https://www.onlineasistent.sk/wp-content/cache/wpfc-minified/q7vkh4hw/c0nnz.css",
+        "https://www.onlineasistent.sk/wp-content/cache/wpfc-minified/23uyktw2/c0nnz.css",
+        "https://www.onlineasistent.sk/wp-content/cache/wpfc-minified/dj04hl9c/c0nnz.css",
+        "https://www.onlineasistent.sk/wp-content/cache/wpfc-minified/mmorq3pj/c0nnz.css",
+        "https://www.onlineasistent.sk/wp-content/cache/wpfc-minified/ma9rbc93/c0nnz.css",
+        "https://www.onlineasistent.sk/wp-content/cache/wpfc-minified/ffwaelb/c0nnz.css",
+        "https://www.onlineasistent.sk/wp-content/uploads/elementor/css/post-612.css?ver=1792663532",
+        "https://www.onlineasistent.sk/wp-content/cache/wpfc-minified/zzrcxuu/c0noh.css",
+        "https://www.onlineasistent.sk/wp-content/uploads/elementor/css/post-127.css?ver=1792663540",
+        "https://www.onlineasistent.sk/wp-content/uploads/elementor/css/post-614.css?ver=1792663532",
+        "https://www.onlineasistent.sk/wp-content/cache/wpfc-minified/qhded512/c0nny.css",
+        "https://www.onlineasistent.sk/wp-content/cache/wpfc-minified/98ex54td/c0nny.css",
+        "https://www.onlineasistent.sk/wp-content/cache/wpfc-minified/lmqda7g6/c0nny.css",
+        "https://www.onlineasistent.sk/wp-content/plugins/astra-addon/addons/nav-menu/assets/css/minified/magamenu-frontend.min.css?ver=4.13.11",
+        "https://fonts.googleapis.com/css?family=Rubik:400%2C600%2C700%2C&display=swap&ver=4.14.1"
+      ],
+      "url": "https://www.onlineasistent.sk/",
+      "viewport": {
+        "height": 1000,
+        "scrollWidth": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "body": {
+        "font": "Rubik, sans-serif",
+        "lineHeight": "27.0994px",
+        "size": "14.592px"
+      },
+      "headings": [
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "51.8px",
+          "size": "37px",
+          "tag": "H1",
+          "text": "Online asistent",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "41.6px",
+          "size": "32px",
+          "tag": "H2",
+          "text": "V.  Martin Barczi",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "41.6px",
+          "size": "32px",
+          "tag": "H2",
+          "text": "Služby online asistenta",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "26px",
+          "size": "20px",
+          "tag": "H3",
+          "text": "Vytvorenie databázy z verejne prístupných zdrojov",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "26px",
+          "size": "20px",
+          "tag": "H3",
+          "text": "Obchodný zástupca na prenájom - navolávanie studených kontaktov",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "26px",
+          "size": "20px",
+          "tag": "H3",
+          "text": "Zákaznícka podpora – starostlivosť o vašich súčasných klientov",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "26px",
+          "size": "20px",
+          "tag": "H3",
+          "text": "Operátor pre online chat",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "26px",
+          "size": "20px",
+          "tag": "H3",
+          "text": "Vkladanie/nahadzovanie produktov na e-shop",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "26px",
+          "size": "20px",
+          "tag": "H3",
+          "text": "Testovanie softvéru a aplikácií",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "41.6px",
+          "size": "32px",
+          "tag": "H2",
+          "text": "Spolupráca s online asistentom",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "26px",
+          "size": "20px",
+          "tag": "H3",
+          "text": "Kontakt",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "26px",
+          "size": "20px",
+          "tag": "H3",
+          "text": "Online stretnutie",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "26px",
+          "size": "20px",
+          "tag": "H3",
+          "text": "Cenová ponuka",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "26px",
+          "size": "20px",
+          "tag": "H3",
+          "text": "Akceptácia cenovej ponuky",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "26px",
+          "size": "20px",
+          "tag": "H3",
+          "text": "Vypracovanie",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "41.6px",
+          "size": "32px",
+          "tag": "H2",
+          "text": "Prečo online asistent",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "41.6px",
+          "size": "32px",
+          "tag": "H2",
+          "text": "O mne",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "41.6px",
+          "size": "32px",
+          "tag": "H2",
+          "text": "Referencie",
+          "weight": "700"
+        },
+        {
+          "font": "Rubik, sans-serif",
+          "lineHeight": "26px",
+          "size": "20px",
+          "tag": "H3",
+          "text": "Cenová ponuka",
+          "weight": "700"
+        }
+      ],
+      "menu": [
+        {
+          "expanded": null,
+          "height": 30,
+          "label": "Nastavenia súborov cookie",
+          "width": 30
+        },
+        {
+          "expanded": null,
+          "height": 10,
+          "label": "Zavrieť",
+          "width": 10
+        },
+        {
+          "expanded": null,
+          "height": 24,
+          "label": "Ukázať viac",
+          "width": 78.953125
+        },
+        {
+          "expanded": "false",
+          "height": 24,
+          "label": "Nevyhnutné",
+          "width": 97.953125
+        },
+        {
+          "expanded": "false",
+          "height": 24,
+          "label": "Funkčné",
+          "width": 68.90625
+        },
+        {
+          "expanded": "false",
+          "height": 24,
+          "label": "Analytika",
+          "width": 75.96875
+        },
+        {
+          "expanded": "false",
+          "height": 24,
+          "label": "Výkon",
+          "width": 49.34375
+        },
+        {
+          "expanded": "false",
+          "height": 24,
+          "label": "Reklama",
+          "width": 67.921875
+        },
+        {
+          "expanded": "false",
+          "height": 24,
+          "label": "Ostatné",
+          "width": 64.3125
+        },
+        {
+          "expanded": null,
+          "height": 44,
+          "label": "Odmietnuť",
+          "width": 797
+        },
+        {
+          "expanded": null,
+          "height": 44,
+          "label": "Uložiť moje predvoľby",
+          "width": 797
+        },
+        {
+          "expanded": null,
+          "height": 44,
+          "label": "Prijať všetko",
+          "width": 797
+        },
+        {
+          "expanded": "false",
+          "height": 40.40625,
+          "label": "Main menu toggle",
+          "width": 40.40625
+        },
+        {
+          "expanded": null,
+          "height": 44.765625,
+          "label": "Odoslať správu",
+          "width": 141.96875
+        },
+        {
+          "expanded": null,
+          "height": 52.78125,
+          "label": "Close menu",
+          "width": 45.78125
+        },
+        {
+          "expanded": "false",
+          "height": 39.296875,
+          "label": "Toggle Moje služby submenu",
+          "width": 35.921875
+        }
+      ],
+      "url": "https://www.onlineasistent.sk/",
+      "viewport": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    }
+  ]
+}

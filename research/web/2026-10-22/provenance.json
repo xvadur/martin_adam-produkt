@@ -1,0 +1,303 @@
+{
+  "schema_version": "1.0",
+  "collected_on": "2026-10-22",
+  "timezone": "Europe/Bratislava",
+  "site": "https://www.onlineasistent.sk/",
+  "method": [
+    "Codex in-app browser: screenshots, semantic navigation, read-only DOM/computed CSS",
+    "Independent public HTTP GET and sitemap inventory"
+  ],
+  "rea_run": false,
+  "boundaries": {
+    "wordpress_admin_accessed": false,
+    "forms_submitted": false,
+    "login_or_payment_attempted": false,
+    "website_built_or_modified": false,
+    "private_conversation_exported": false,
+    "new_brand_visual_approved": false
+  },
+  "browser_steps": [
+    "desktop cookie choice and home",
+    "services section",
+    "story",
+    "footer training link error",
+    "blog and article",
+    "certificates",
+    "contact desktop",
+    "home mobile and menu/submenu",
+    "contact mobile"
+  ],
+  "screenshots": [
+    {
+      "file": "01-home-desktop-cookie.jpg",
+      "url": "https://www.onlineasistent.sk/",
+      "caption": "Prvý desktopový vstup s cookie bannerom",
+      "viewport_css_px": {
+        "width": 1440,
+        "height": 1000
+      },
+      "image_px": {
+        "width": 1440,
+        "height": 1000
+      },
+      "media_type": "image/jpeg",
+      "sha256": "8da637253c85d769c30d1ac4b6cf4d960e168626c2ca4c82ffa2cc238e6b8774",
+      "visually_inspected": true,
+      "image_edited": false
+    },
+    {
+      "file": "02-home-desktop.jpg",
+      "url": "https://www.onlineasistent.sk/",
+      "caption": "Domov po odmietnutí cookies",
+      "viewport_css_px": {
+        "width": 1440,
+        "height": 1000
+      },
+      "image_px": {
+        "width": 1440,
+        "height": 1000
+      },
+      "media_type": "image/jpeg",
+      "sha256": "193199ab4ef6276b2320c4a4959540d63c0d58ec742f4d56ed0b25fbe13ea6de",
+      "visually_inspected": true,
+      "image_edited": false
+    },
+    {
+      "file": "03-home-services.jpg",
+      "url": "https://www.onlineasistent.sk/",
+      "caption": "Služby na domove po posunutí stránky",
+      "viewport_css_px": {
+        "width": 1440,
+        "height": 1000
+      },
+      "image_px": {
+        "width": 1440,
+        "height": 1000
+      },
+      "media_type": "image/jpeg",
+      "sha256": "07c64b77dcd1fdd656b1630856194b957d8d46455f9bcb63556eadfd5deae07d",
+      "visually_inspected": true,
+      "image_edited": false
+    },
+    {
+      "file": "04-story-desktop.jpg",
+      "url": "https://www.onlineasistent.sk/moj-pribeh/",
+      "caption": "Môj príbeh a vlastná fotografia",
+      "viewport_css_px": {
+        "width": 1440,
+        "height": 1000
+      },
+      "image_px": {
+        "width": 1440,
+        "height": 1000
+      },
+      "media_type": "image/jpeg",
+      "sha256": "a30537af8d1fd90e957ff7f7240f97d6447c24f8a0e260d78be5d50a21c16306",
+      "visually_inspected": true,
+      "image_edited": false
+    },
+    {
+      "file": "05-training-link-result.jpg",
+      "url": "https://www.onlineasistent.sk/skolenie-na-backoffice/",
+      "caption": "Výsledok kliknutia na školenie z pätičky",
+      "viewport_css_px": {
+        "width": 1440,
+        "height": 1000
+      },
+      "image_px": {
+        "width": 1440,
+        "height": 1000
+      },
+      "media_type": "image/jpeg",
+      "sha256": "fbf6007a8853d22d70402a5f566e14f3e6c28cd5c8a8322aa23d8b42d814b4b3",
+      "visually_inspected": true,
+      "image_edited": false
+    },
+    {
+      "file": "06-blog-desktop.jpg",
+      "url": "https://www.onlineasistent.sk/blog/",
+      "caption": "Blog a existujúce články",
+      "viewport_css_px": {
+        "width": 1440,
+        "height": 1000
+      },
+      "image_px": {
+        "width": 1440,
+        "height": 1000
+      },
+      "media_type": "image/jpeg",
+      "sha256": "f7409b04a21b50811d3e2c2aa56d92963d5b83888828bd23eaf700ab191d160f",
+      "visually_inspected": true,
+      "image_edited": false
+    },
+    {
+      "file": "07-article-desktop.jpg",
+      "url": "https://www.onlineasistent.sk/aktivny-telemarketing-preco-si-nerobim-statistiku-uspesnosti/",
+      "caption": "Článok o štatistike telemarketingu",
+      "viewport_css_px": {
+        "width": 1440,
+        "height": 1000
+      },
+      "image_px": {
+        "width": 1440,
+        "height": 1000
+      },
+      "media_type": "image/jpeg",
+      "sha256": "0baa601cb2ca4505c531e8e5253a53af62303e09453697a321019f7c13ac3c51",
+      "visually_inspected": true,
+      "image_edited": false
+    },
+    {
+      "file": "08-certificates-desktop.jpg",
+      "url": "https://www.onlineasistent.sk/certifikaty/",
+      "caption": "Certifikáty a vysvetlenie vzdelávania",
+      "viewport_css_px": {
+        "width": 1440,
+        "height": 1000
+      },
+      "image_px": {
+        "width": 1440,
+        "height": 1000
+      },
+      "media_type": "image/jpeg",
+      "sha256": "537ce16ce3bae7c718293ca6996ad004d9ae195a530ba3a06d146333c3ae677a",
+      "visually_inspected": true,
+      "image_edited": false
+    },
+    {
+      "file": "09-contact-desktop.jpg",
+      "url": "https://www.onlineasistent.sk/kontakt/",
+      "caption": "Kontakt a začiatok formulára na desktope",
+      "viewport_css_px": {
+        "width": 1440,
+        "height": 1000
+      },
+      "image_px": {
+        "width": 1440,
+        "height": 1000
+      },
+      "media_type": "image/jpeg",
+      "sha256": "33d5ecc2dc098f112535a6f8550d3c72b9dd9a348f61a9ab23db1edcd326682e",
+      "visually_inspected": true,
+      "image_edited": false
+    },
+    {
+      "file": "10-home-mobile.jpg",
+      "url": "https://www.onlineasistent.sk/",
+      "caption": "Domov v mobilnom viewporte; prefix mena je animovaný",
+      "viewport_css_px": {
+        "width": 390,
+        "height": 844
+      },
+      "image_px": {
+        "width": 390,
+        "height": 844
+      },
+      "media_type": "image/jpeg",
+      "sha256": "107dffef5ffbb238833d608d81d4f845c5acfa99ff1b4910c6b8ec7f464b433a",
+      "visually_inspected": true,
+      "image_edited": false
+    },
+    {
+      "file": "11-mobile-menu.jpg",
+      "url": "https://www.onlineasistent.sk/",
+      "caption": "Otvorené mobilné menu",
+      "viewport_css_px": {
+        "width": 390,
+        "height": 844
+      },
+      "image_px": {
+        "width": 390,
+        "height": 844
+      },
+      "media_type": "image/jpeg",
+      "sha256": "3e0fe6595a40240f7a959a28d90b9597ec561a0ae00796ceff9911c7a18771d8",
+      "visually_inspected": true,
+      "image_edited": false
+    },
+    {
+      "file": "12-mobile-submenu.jpg",
+      "url": "https://www.onlineasistent.sk/",
+      "caption": "Otvorené mobilné podmenu služieb",
+      "viewport_css_px": {
+        "width": 390,
+        "height": 844
+      },
+      "image_px": {
+        "width": 390,
+        "height": 844
+      },
+      "media_type": "image/jpeg",
+      "sha256": "898a2d596334e6b96c068601030577f50651464855a3a2145b582390e3c8e1d6",
+      "visually_inspected": true,
+      "image_edited": false
+    },
+    {
+      "file": "13-contact-mobile.jpg",
+      "url": "https://www.onlineasistent.sk/kontakt/",
+      "caption": "Mobilný kontakt pred formulárom",
+      "viewport_css_px": {
+        "width": 390,
+        "height": 844
+      },
+      "image_px": {
+        "width": 390,
+        "height": 844
+      },
+      "media_type": "image/jpeg",
+      "sha256": "8f62b0cbd41bb1aad8a063d7fd338bb50341c06910f9f6c0817b0668d5576c4f",
+      "visually_inspected": true,
+      "image_edited": false
+    },
+    {
+      "file": "14-contact-mobile-form.jpg",
+      "url": "https://www.onlineasistent.sk/kontakt/",
+      "caption": "Mobilný formulár bez zadania a odoslania údajov",
+      "viewport_css_px": {
+        "width": 390,
+        "height": 844
+      },
+      "image_px": {
+        "width": 390,
+        "height": 844
+      },
+      "media_type": "image/jpeg",
+      "sha256": "e6e4a6436505342fdbd41e05ceed5706d7233b0a60884d1fd4fbb8598f7741b7",
+      "visually_inspected": true,
+      "image_edited": false
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "CONTENT-INVENTORY.json",
+      "sha256": "da022a23071b9b84fab75f69dc04f63f21ce0c5ca7609f54dda97da985dcc786"
+    },
+    {
+      "file": "OBSAH-A-PONUKA.md",
+      "sha256": "a28d7c78a6b762bd4c52741e0e7211be266ee8dbe375023cb738a90eb9bf88cf"
+    },
+    {
+      "file": "README.md",
+      "sha256": "76086c1448a21e5351143f7f005affeeea03bf5b2753061f77c26c2355bbf597"
+    },
+    {
+      "file": "SCREENSHOTS.md",
+      "sha256": "a506f0333d7ee61f750902668b7a50d88c861f78c8d1672bcad5d4f52943ada2"
+    },
+    {
+      "file": "computed-styles.json",
+      "sha256": "d08a3c54226e773d1a58ad5c27ab333074324a5f9e7a92d48838e9d368b52b97"
+    },
+    {
+      "file": "contact-fields.json",
+      "sha256": "03f36e9286ce4a2a662ea85a920755ba66bdf5771f39a30869b9d3d16690d16b"
+    }
+  ],
+  "evidence_limits": [
+    "Current public frontend snapshots, not original source project.",
+    "Viewport override is not full physical device emulation.",
+    "No end-to-end form delivery or checkout test.",
+    "No complete WCAG, reduced-motion or performance audit.",
+    "Existing imagery is a research reference; rights for new use remain to confirm."
+  ]
+}

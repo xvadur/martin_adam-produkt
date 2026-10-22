@@ -6,6 +6,12 @@ Tento repozitár zachytáva základný zámer XVADURu a jeho prvú klientsku rea
 
 **Stav: koncepčný základ.** README opisuje cieľový systém a postup jeho vytvorenia. Neznamená, že sú už implementované spoločné moduly, nasadený Martinov nový web, zapojené platby alebo spustené kampane. Konkrétna ponuka a publikačné rozhodnutia sa určujú s Martinom.
 
+### Výskumný základ pre Martina — 22. 10. 2026
+
+V repozitári je doplnený [research balík pre Martinovu značku, web a odbornú tvorbu](RESEARCH.md): živý rozbor pôvodného onlineasistent.sk, inventár obsahu, 14 referenčných snímok, výber existujúcich realitných výskumov a pracovné briefy. [Základ značky](brand/README.md) oddeľuje doložené východiská od návrhov a otvorených rozhodnutí.
+
+**Aktuálna fáza je iba research.** Nový web, finálny vizuál, platby ani kampaň sa v tomto kroku nestavali. Pôvodný web sa čítal bez administrátorského prístupu a bez odosielania formulárov.
+
 ## Grand thesis
 
 XVADUR je Adamom vedený pracovný a podnikateľský systém, ktorý premieňa skúsenosti, rozhovory, výskum a rozhodnutia na autorské diela, produkty a fungujúce služby. Adam určuje smer a prináša úsudok. Spoločná pamäť, nástroje a agenti zabezpečujú, aby sa vykonaná práca dala ďalej používať pre Adama, jeho publikum aj klientov.
