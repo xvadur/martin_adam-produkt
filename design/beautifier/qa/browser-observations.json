@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-22",
+  "browser": "Codex IAB Chromium",
+  "cssViewportSizesVerified": true,
+  "screenCapture": "CDP Page.captureScreenshot; device pixels include host browser zoom1.17",
+  "observations": [
+    {
+      "test": "mobile375",
+      "heroHeight": 797,
+      "pageWidth": 375,
+      "process": "process dark is-live is-loop",
+      "titleVisible": "visible",
+      "viewport": [
+        375,
+        812
+      ]
+    },
+    {
+      "test": "system-reduced",
+      "runtime": {
+        "result": {
+          "type": "string",
+          "value": "{\"viewport\":[1440,900],\"motion\":{\"ready\":true,\"mode\":\"reduced\",\"errors\":[]},\"reduced\":true,\"spacers\":0,\"process\":\"process dark\",\"steps\":[\"1\",\"1\",\"1\",\"1\",\"1\"]}"
+        }
+      }
+    },
+    {
+      "test": "nojs-mobile",
+      "formAction": "mailto:info@onlineasistent.sk",
+      "formButton": "none",
+      "hasJs": false,
+      "heading": "visible",
+      "menu": "none",
+      "nav": "flex",
+      "spacers": 0,
+      "viewport": [
+        375,
+        812
+      ],
+      "width": 375
+    },
+    {
+      "test": "1280x720-cpu4",
+      "runtime": {
+        "result": {
+          "type": "string",
+          "value": "{\"viewport\":[1280,720],\"motion\":{\"ready\":true,\"mode\":\"enhanced\",\"errors\":[]},\"pin\":true,\"heroExit\":true,\"titleOpacity\":\"1\"}"
+        }
+      }
+    },
+    {
+      "test": "1440x1600-tall",
+      "mode": "process dark is-live is-loop",
+      "spacers": 0,
+      "viewport": [
+        1440,
+        1600
+      ],
+      "width": 1440
+    },
+    {
+      "test": "small320",
+      "viewport": [
+        320,
+        812
+      ],
+      "width": 320
+    },
+    {
+      "test": "desktop1440-pin-midscroll",
+      "number": "01",
+      "scroll": 4111.111328125,
+      "stageHeight": 804,
+      "stageTop": 87.6602554321289,
+      "steps": [
+        {
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        {
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        {
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        {
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        {
+          "opacity": "1",
+          "visibility": "visible"
+        }
+      ],
+      "viewport": [
+        1440,
+        900
+      ],
+      "width": 1440
+    },
+    {
+      "test": "mobile-menu",
+      "open": true,
+      "shiftTabWrappedTo": "Kontakt",
+      "escapeClosed": true
+    },
+    {
+      "test": "contact-form",
+      "emptySubmissionInvalidFields": 5,
+      "validSubmission": "prepared_mailto_no_send",
+      "remainingErrors": 0
+    },
+    {
+      "test": "pin-scroll",
+      "observedNumbers": [
+        "01",
+        "02",
+        "05"
+      ],
+      "stageTopCssPx": 88,
+      "allStepOpacities": 1
+    },
+    {
+      "test": "final-v9-anchors-story",
+      "storyAnchorTop": 87.98,
+      "contactAnchorTop": 87.97,
+      "homeAnchorTop": 0,
+      "storyPhotoHeight": 699,
+      "storyCopyHeight": 479,
+      "storySectionHeight": 878,
+      "heroHeight1440": 869
+    }
+  ]
+}

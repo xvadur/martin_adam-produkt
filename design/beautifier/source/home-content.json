@@ -1,0 +1,690 @@
+{
+  "schemaVersion": "1.0",
+  "source": {
+    "url": "https://www.onlineasistent.sk/",
+    "fetchedAtUtc": "2026-10-22T16:37:01.957631+00:00",
+    "httpStatus": 200,
+    "sha256": "1fd27cbe47ae87e44df59ce844c8cecef8441cb4b05e07672dbe4dfe8b4d53da",
+    "rawLocalFile": "source/home.raw.html",
+    "copyPolicy": "Copied existing home text; no rewriting, shortening or reordering. Structural HTML whitespace normalized only; NBSP and punctuation retained.",
+    "status": "source_copy_not_proposed_copy"
+  },
+  "sectionOrder": [
+    "hero",
+    "services",
+    "process",
+    "benefits",
+    "about",
+    "testimonials",
+    "contact",
+    "footer"
+  ],
+  "navigation": [
+    {
+      "label": "Domov",
+      "url": "https://www.onlineasistent.sk/",
+      "children": []
+    },
+    {
+      "label": "Môj príbeh",
+      "url": "https://www.onlineasistent.sk/moj-pribeh/",
+      "children": []
+    },
+    {
+      "label": "Moje služby",
+      "url": "https://www.onlineasistent.sk/moje-sluzby/",
+      "children": [
+        {
+          "label": "Obchodný zástupca na prenájom",
+          "url": "https://www.onlineasistent.sk/obchodny-zastupca-na-prenajom/",
+          "children": []
+        },
+        {
+          "label": "Operátor pre online chat",
+          "url": "https://www.onlineasistent.sk/operator-pre-online-chat/",
+          "children": []
+        },
+        {
+          "label": "Vkladanie produktov na e-shop",
+          "url": "https://www.onlineasistent.sk/vkladanie-produktov-na-eshop/",
+          "children": []
+        },
+        {
+          "label": "Vytvorenie databázy z verejne prístupných zdrojov",
+          "url": "https://www.onlineasistent.sk/vytvorenie-databazy/",
+          "children": []
+        },
+        {
+          "label": "Zákaznícka podpora – starostlivosť o vašich súčasných klientov",
+          "url": "https://www.onlineasistent.sk/zakaznicka-podpora/",
+          "children": []
+        },
+        {
+          "label": "Testovanie softvéru a aplikácií",
+          "url": "https://www.onlineasistent.sk/testovanie-softveru-a-aplikacii/",
+          "children": []
+        }
+      ]
+    },
+    {
+      "label": "Certifikáty",
+      "url": "https://www.onlineasistent.sk/certifikaty/",
+      "children": []
+    },
+    {
+      "label": "Blog",
+      "url": "https://www.onlineasistent.sk/blog/",
+      "children": []
+    },
+    {
+      "label": "Kontakt",
+      "url": "https://www.onlineasistent.sk/kontakt/",
+      "children": []
+    }
+  ],
+  "headerLogo": {
+    "url": "https://www.onlineasistent.sk/wp-content/uploads/2025/10/logo-horizontal-white-180x48.png",
+    "localPath": "assets/real/logo-horizontal-white-180x48.png",
+    "alt": "ONLINE ASISTENT - MARTIN BARCZI®"
+  },
+  "hero": {
+    "eyebrow": "Online asistent",
+    "animatedHeading": {
+      "prefixes": [
+        "Volám sa",
+        "Moje meno je"
+      ],
+      "stableSuffix": "Martin Barczi",
+      "sourcePlaceholder": ".",
+      "placeholderIsVisibleCopy": false,
+      "originalAnimation": {
+        "data-type-speed": "120",
+        "data-animation": "type",
+        "data-back-speed": "60",
+        "data-start-delay": "0",
+        "data-back-delay": "1200",
+        "data-loop": "true",
+        "data-show-cursor": "false",
+        "data-cursor-char": "",
+        "data-strings": "[\"Vol\\u00e1m sa\",\"Moje meno je\"]"
+      },
+      "hiddenDuplicateHeading": "Martin Barczi",
+      "hiddenDuplicateShouldRender": false
+    },
+    "title": "Flexibilná posila do Vašej firmy, nechajte oslovenie a starostlivosť o klientov na mňa",
+    "paragraphs": [
+      "Online asistent je služba, ktorá je navrhnutá tak, aby vám pomáhala s rôznymi úlohami a otázkami prostredníctvom internetu. Môže sa používať na riešenie rôznych problémov, vyhľadávanie informácií, poskytovanie odpovedí na otázky ale aj pomoc s rôznymi úlohami."
+    ],
+    "ctas": [
+      {
+        "label": "Kontaktujte ma",
+        "url": "https://www.onlineasistent.sk/kontakt/",
+        "sourceWidgetId": "efac784"
+      },
+      {
+        "label": "Viac o mne",
+        "url": "https://www.onlineasistent.sk/moj-pribeh/",
+        "sourceWidgetId": "e53d096"
+      }
+    ],
+    "trust": [
+      "11 ročné skúsenosti",
+      "Dôvera",
+      "Profesionalita"
+    ],
+    "background": {
+      "sourceCssUrl": "https://www.onlineasistent.sk/wp-content/uploads/elementor/css/post-127.css?ver=1792663540",
+      "sourceCssStatus": 404,
+      "originalImageUrl": null,
+      "status": "unresolved_current_linked_stylesheet_returns_404"
+    }
+  },
+  "services": {
+    "eyebrow": "Moje služby",
+    "title": "Služby online asistenta",
+    "intro": [
+      "Ako online asistent poskytujem širokú škálu služieb. Od administratívnych cez virtuálne asistovanie až po zákaznícku podporu."
+    ],
+    "items": [
+      {
+        "number": "01.",
+        "title": "Vytvorenie databázy z verejne prístupných zdrojov",
+        "paragraphs": [
+          "Zabezpečím vytvorenie databázy z verejne prístupných zdrojov. Databázu následne môžeme použiť ako zdroj kontaktov na oslovenie nových zákazníkov. O vytvorenie databázy môžete požiadať aj v prípade, že nebudete chcieť realizovať následné oslovenie kontaktov."
+        ],
+        "cta": {
+          "label": "Zobraziť viac",
+          "url": "https://www.onlineasistent.sk/vytvorenie-databazy/",
+          "sourceWidgetId": "3dc1b44"
+        },
+        "image": {
+          "url": "https://www.onlineasistent.sk/wp-content/uploads/2022/12/OnlineAsistentWeb.jpg",
+          "localPath": "assets/real/OnlineAsistentWeb.jpg",
+          "alt": "Vytvorenie databázy z verejne prístupných zdrojov",
+          "sourceWidgetId": "27329fc7"
+        },
+        "sourceWidgetIds": [
+          "7d9164f",
+          "1ab9101b",
+          "10ee9486",
+          "3dc1b44",
+          "27329fc7"
+        ]
+      },
+      {
+        "number": "02.",
+        "title": "Obchodný zástupca na prenájom - navolávanie studených kontaktov",
+        "paragraphs": [
+          "Telemarketingu a profesionálnej komunikácii sa venujem od roku 2014 a svoje skúsenosti ponúkam aj vám. Ak hľadáte niekoho, kto oslovuje klientov s ohľadom na ich potreby a netlačí na uzavretie obchodu za každú cenu, pretože si uvedomujem dôležitosť pozitívneho dojmu, som pre vás správnou voľbou."
+        ],
+        "cta": {
+          "label": "Zobraziť viac",
+          "url": "https://www.onlineasistent.sk/obchodny-zastupca-na-prenajom/",
+          "sourceWidgetId": "3dac3e0"
+        },
+        "image": {
+          "url": "https://www.onlineasistent.sk/wp-content/uploads/2022/12/OnlineAsistentWeb2.jpg",
+          "localPath": "assets/real/OnlineAsistentWeb2.jpg",
+          "alt": "Akvizícia - navolávanie studených kontaktov",
+          "sourceWidgetId": "89765ed"
+        },
+        "sourceWidgetIds": [
+          "a342296",
+          "44d9687d",
+          "d2cabef",
+          "3dac3e0",
+          "89765ed"
+        ]
+      },
+      {
+        "number": "03.",
+        "title": "Zákaznícka podpora – starostlivosť o vašich súčasných klientov",
+        "paragraphs": [
+          "Rovnako dôležitou súčasťou každej firmy je aj starostlivosť o existujúcich klientov. Ak potrebujete posilniť starostlivosť alebo vykryť čas v ktorom vy nepracujete, tak táto služba je tu pre Vás."
+        ],
+        "cta": {
+          "label": "Zobraziť viac",
+          "url": "https://www.onlineasistent.sk/zakaznicka-podpora/",
+          "sourceWidgetId": "54bd48e"
+        },
+        "image": {
+          "url": "https://www.onlineasistent.sk/wp-content/uploads/2022/12/OnlineAsistentWeb6.jpg",
+          "localPath": "assets/real/OnlineAsistentWeb6.jpg",
+          "alt": "Zákaznícka podpora – starostlivosť o vašich súčasných klientov",
+          "sourceWidgetId": "316dafc"
+        },
+        "sourceWidgetIds": [
+          "341fc7d",
+          "4518e89",
+          "b82b33e",
+          "54bd48e",
+          "316dafc"
+        ]
+      },
+      {
+        "number": "04.",
+        "title": "Operátor pre online chat",
+        "paragraphs": [
+          "Chceli by ste mať alebo už máte na stránke online chat, no nebaví Vás pri ňom sedieť? O online chat sa kompletne postarám. Viem flexibilne poskytnúť túto službu na ľubovoľný čas."
+        ],
+        "cta": {
+          "label": "Zobraziť viac",
+          "url": "https://www.onlineasistent.sk/operator-pre-online-chat/",
+          "sourceWidgetId": "a660ce0"
+        },
+        "image": {
+          "url": "https://www.onlineasistent.sk/wp-content/uploads/2022/12/OnlineAsistenWeb4.jpg",
+          "localPath": "assets/real/OnlineAsistenWeb4.jpg",
+          "alt": "blank",
+          "sourceWidgetId": "049ef28"
+        },
+        "sourceWidgetIds": [
+          "f3e8d96",
+          "9e96748",
+          "eb73bf0",
+          "a660ce0",
+          "049ef28"
+        ]
+      },
+      {
+        "number": "05.",
+        "title": "Vkladanie/nahadzovanie produktov na e-shop",
+        "paragraphs": [
+          "Máte internetový obchod, no nechce sa Vám strácať čas s vložením produktov na web stránku? Venujte sa radšej objednávkam alebo marketingu a tohto Vás ja zbavím."
+        ],
+        "cta": {
+          "label": "Zobraziť viac",
+          "url": "https://www.onlineasistent.sk/vkladanie-produktov-na-eshop/",
+          "sourceWidgetId": "33005f9"
+        },
+        "image": {
+          "url": "https://www.onlineasistent.sk/wp-content/uploads/2022/12/OnlineAsistentWeb5.jpg",
+          "localPath": "assets/real/OnlineAsistentWeb5.jpg",
+          "alt": "Vkladanie/nahadzovanie produktov na e-shop",
+          "sourceWidgetId": "c3e4b9b"
+        },
+        "sourceWidgetIds": [
+          "def84aa",
+          "61844de",
+          "3a42930",
+          "33005f9",
+          "c3e4b9b"
+        ]
+      },
+      {
+        "number": "06",
+        "title": "Testovanie softvéru a aplikácií",
+        "paragraphs": [
+          "Moje služby zahŕňajú dôkladné testovanie softvéru alebo aplikácie v rôznych prostrediach a situáciách, aby sme identifikovali akékoľvek problémy alebo nedostatky, ktoré by mohli ovplyvniť používateľskú skúsenosť. Následne vám poskytnem podrobnú správu so zisteniami a návrhmi na vylepšenie."
+        ],
+        "cta": {
+          "label": "Zobraziť viac",
+          "url": "https://www.onlineasistent.sk/testovanie-softveru-a-aplikacii/",
+          "sourceWidgetId": "49f61fe"
+        },
+        "image": {
+          "url": "https://www.onlineasistent.sk/wp-content/uploads/2024/03/Testovanie-softveru-a-aplikacii.jpg",
+          "localPath": "assets/real/Testovanie-softveru-a-aplikacii.jpg",
+          "alt": "Testovanie softvéru a aplikácií",
+          "sourceWidgetId": "1b76731"
+        },
+        "sourceWidgetIds": [
+          "70ce7e8",
+          "1d5da47",
+          "a5277b9",
+          "49f61fe",
+          "1b76731"
+        ]
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Ako prebieha spolupráca",
+    "title": "Spolupráca s online asistentom",
+    "steps": [
+      {
+        "label": "1. krok",
+        "title": "Kontakt",
+        "paragraphs": [
+          "Kontaktujte ma a v krátkosti opíšte vašu požiadavku"
+        ]
+      },
+      {
+        "label": "2. krok",
+        "title": "Online stretnutie",
+        "paragraphs": [
+          "Na základe dopytu si dohodneme online stretnutie, aby som sa o vašich službách a potrebách mohol dozvedieť viac."
+        ]
+      },
+      {
+        "label": "3. krok",
+        "title": "Cenová ponuka",
+        "paragraphs": [
+          "Na základe predošlej konzultácie vypracujem cenovú ponuku."
+        ]
+      },
+      {
+        "label": "4. krok",
+        "title": "Akceptácia cenovej ponuky",
+        "paragraphs": [
+          "Po akceptovaní cenovej ponuky a uhradení faktúry začneme spoluprácu."
+        ]
+      },
+      {
+        "label": "5. krok",
+        "title": "Vypracovanie",
+        "paragraphs": [
+          "Počas spolupráce budem pravidelne informovať o priebehu zadanej úlohy. V niektorých prípadoch môžem posielať aj reporty."
+        ]
+      }
+    ],
+    "sourceWidgetId": "597d8aa",
+    "sourceResponsiveLabelsRepeated": true,
+    "renderEachStepOnce": true
+  },
+  "benefits": {
+    "eyebrow": "Prečo spolupracovať so mnou",
+    "title": "Prečo online asistent",
+    "items": [
+      {
+        "title": "Flexibilná spolupráca",
+        "paragraphs": [
+          "Výhodou je nielen cena, no aj časová flexibilita. Moje služby si môžete vyskúšať na ľubovoľný čas a sami sa rozhodnete, či budeme v spolupráci pokračovať."
+        ],
+        "sourceWidgetId": "6954d52"
+      },
+      {
+        "title": "Individuálny prístup",
+        "paragraphs": [
+          "Ku každému klientovi pristupujem individuálne, pretože každý produkt/služba je iná."
+        ],
+        "sourceWidgetId": "fe3ac08"
+      },
+      {
+        "title": "Šetríte náklady",
+        "paragraphs": [
+          "Za mňa nemusíte platiť odvody a rovnako ani výdavky za mobil, priestory alebo internet. Platíte mi naozaj iba za prácu, a to vtedy keď ju potrebujete."
+        ],
+        "sourceWidgetId": "639efe7"
+      },
+      {
+        "title": "Garancia spokojnosti",
+        "paragraphs": [
+          "V prípade, že sa spoluprácu rozhodnete ukončiť skôr ako bolo plánované, tak peniaze, ktoré ste zaplatili navyše Vám budú vrátené a to bez sankcií."
+        ],
+        "sourceWidgetId": "93ade00"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "Môj príbeh",
+    "title": "O mne",
+    "paragraphs": [
+      "Som mladý človek a považujem sa za bojovníka. Aj napriek môjmu zdravotnému znevýhodneniu som dokázal mojej rodine a známym, že pracovať sa dá, no človek musí chcieť. Hneď po škole som začal pracovať pre call centrum kde som vytváral databázy z verejne prístupných zdrojov. Neskôr som pôsobil v cestovnej kancelárii na online chat-e. Mojou úlohou bolo pomôcť zákazníkom najsť, to, čo potrebujú. V tomto momente som začal zisťovať, že práca s ľuďmi ma napriek negatívam baví. Postupne som zisťoval, že dokážem ľudí so záujmom počúvať a rozmýšľať nad tým, ako veci urobiť lepšie. Hlavné však bolo, že ma to napĺňalo stále viac. Stále som však cítil, že potrebujem niečo viac a zlom v mojom živote priniesla možnosť naučiť sa nové veci a pomôcť kamarátovi na začiatku s rozbehnutím firmy."
+    ],
+    "cta": {
+      "label": "Zobraziť viac",
+      "url": "https://www.onlineasistent.sk/moj-pribeh/",
+      "sourceWidgetId": "55cc596"
+    },
+    "sourceWidgetId": "854aaaf"
+  },
+  "testimonials": {
+    "eyebrow": "Čo hovoria klienti",
+    "title": "Referencie",
+    "items": [
+      {
+        "quote": "Ak hľadáte MAJSTRA online asistenta, tak ste na správnej adrese. Spoľahlivosť, odbornosť, rýchlosť, kvalita.....presne toto vystihuje pána Barcziho. Pán Barczi, veľmi pekne ďakujem za Vami odvedenú skvelú prácu. Je mi cťou s vami spolupracovať.",
+        "name": "Zlatica Jurík Gabrišová",
+        "role": "Občianske združenie SPOLOK DOBREJ NÁLADY",
+        "sourceWidgetId": "1620c7da"
+      },
+      {
+        "quote": "Potrebovali sme operatívne vypracovať databázu a osloviť tieto kontakty. Po zrealizovaní telemarketingu sme získali niekoľko zákaziek a dopytov na vypracovanie kalkulácie. Službu Online asistent hodnotíme pozitívne.",
+        "name": "Matej Zitta",
+        "role": "Executive Director MARKETING POST SLOVAKIA, s.r.o.",
+        "sourceWidgetId": "a75be75"
+      },
+      {
+        "quote": "Na službách online asistenta oceňujeme hlavne spoľahlivosť. Martin pracuje podľa zadaných požiadaviek a vždy sa snaží splniť úlohy na 120%. Úlohy pre neho nekončia zadaním, ale zamýšľa sa, ako ich čo najlepšie splniť.",
+        "name": "Marek Šubrt",
+        "role": "backOFFICE.Sk",
+        "sourceWidgetId": "0f6aff9"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Napíšte mi",
+    "title": "Cenová ponuka",
+    "image": {
+      "url": "https://www.onlineasistent.sk/wp-content/uploads/2022/12/OnlineAsistentWeb5.jpg",
+      "localPath": "assets/real/OnlineAsistentWeb5.jpg",
+      "alt": "Vkladanie/nahadzovanie produktov na e-shop",
+      "sourceWidgetId": "926ceb0"
+    },
+    "form": {
+      "fields": [
+        {
+          "label": "Meno *",
+          "sourceFieldId": "0",
+          "type": "text",
+          "required": true,
+          "placeholder": "Meno *"
+        },
+        {
+          "label": "Názov spoločnosti",
+          "sourceFieldId": "6",
+          "type": "text",
+          "required": false,
+          "placeholder": "Názov spoločnosti"
+        },
+        {
+          "label": "Email *",
+          "sourceFieldId": "1",
+          "type": "email",
+          "required": true,
+          "placeholder": "Email *"
+        },
+        {
+          "label": "Telefón",
+          "sourceFieldId": "4",
+          "type": "text",
+          "required": false,
+          "placeholder": "Telefón"
+        },
+        {
+          "label": "Predmet *",
+          "sourceFieldId": "3",
+          "type": "text",
+          "required": true,
+          "placeholder": "Predmet *"
+        },
+        {
+          "label": "Správa *",
+          "sourceFieldId": "2",
+          "type": "textarea",
+          "required": true,
+          "placeholder": "Správa *"
+        },
+        {
+          "label": "GDPR *",
+          "sourceFieldId": "5",
+          "type": "checkbox",
+          "required": true,
+          "placeholder": "",
+          "choices": [
+            "Súhlasím so spracovaním osobných údajov *"
+          ]
+        }
+      ],
+      "submitLabel": "Odoslať správu",
+      "javascriptNotice": "Ak chcete vyplniť tento formulár, povoľte vo svojom prehliadači JavaScript.",
+      "sourceWidgetId": "77ef2e6",
+      "sourceAction": "/",
+      "sourceMethod": "post",
+      "operationalStatus": "copied_labels_only_no_submission_performed",
+      "technicalTokensCopied": false
+    }
+  },
+  "footer": {
+    "logo": {
+      "url": "https://www.onlineasistent.sk/wp-content/uploads/2025/10/logo-horizontal-white.png",
+      "localPath": "assets/real/logo-horizontal-white.png",
+      "alt": "ONLINE ASISTENT - MARTIN BARCZI®",
+      "sourceWidgetId": "e057578"
+    },
+    "description": [],
+    "contactHeading": "Kontakt",
+    "contactLinks": [
+      {
+        "label": "+421 944 124 137",
+        "url": "tel:+421944124137"
+      },
+      {
+        "label": "info@onlineasistent.sk",
+        "url": "mailto:info@onlineasistent.sk"
+      }
+    ],
+    "servicesHeading": "Služby",
+    "serviceLinks": [
+      {
+        "label": "Obchodný zástupca na prenájom - navolávanie studených kontaktov",
+        "url": "https://www.onlineasistent.sk/obchodny-zastupca-na-prenajom/"
+      },
+      {
+        "label": "Operátor pre online chat",
+        "url": "https://www.onlineasistent.sk/operator-pre-online-chat/"
+      },
+      {
+        "label": "Vkladanie/nahadzovanie produktov na eshop",
+        "url": "https://www.onlineasistent.sk/vkladanie-produktov-na-eshop/"
+      },
+      {
+        "label": "Vytvorenie databázy z verejne prístupných zdrojov",
+        "url": "https://www.onlineasistent.sk/vytvorenie-databazy/"
+      },
+      {
+        "label": "Zákaznícka podpora – starostlivosť o vašich súčasných klientov",
+        "url": "https://www.onlineasistent.sk/zakaznicka-podpora/"
+      },
+      {
+        "label": "Testovanie softvéru a aplikácií",
+        "url": "https://www.onlineasistent.sk/testovanie-softveru-a-aplikacii/"
+      },
+      {
+        "label": "Školenie na realitný softvér backOFFICE®!",
+        "url": "https://www.onlineasistent.sk/skolenie-na-backoffice/"
+      }
+    ],
+    "copyright": "© 2026 Online asistent",
+    "copyrightLinks": []
+  },
+  "assets": [
+    {
+      "url": "https://www.onlineasistent.sk/wp-content/uploads/2022/12/OnlineAsistentWeb.jpg",
+      "localPath": "assets/real/OnlineAsistentWeb.jpg",
+      "filename": "OnlineAsistentWeb.jpg",
+      "sourcePage": "https://www.onlineasistent.sk/",
+      "sourceWidgetIds": [
+        "27329fc7"
+      ],
+      "discovery": "img data-wpfc-original-src or src",
+      "originalAlt": "Vytvorenie databázy z verejne prístupných zdrojov",
+      "sha256": "930fe27d34d3b89c522f7ca0e453bcfde5c26a489cf5f9a7bf7eef983cf070e0",
+      "bytes": 72272,
+      "httpStatus": 200,
+      "downloaded": true,
+      "rightsStatus": "existing_public_source_local_authorized_preview_only; new_publication_rights_not_audited"
+    },
+    {
+      "url": "https://www.onlineasistent.sk/wp-content/uploads/2022/12/OnlineAsistentWeb2.jpg",
+      "localPath": "assets/real/OnlineAsistentWeb2.jpg",
+      "filename": "OnlineAsistentWeb2.jpg",
+      "sourcePage": "https://www.onlineasistent.sk/",
+      "sourceWidgetIds": [
+        "89765ed"
+      ],
+      "discovery": "img data-wpfc-original-src or src",
+      "originalAlt": "Akvizícia - navolávanie studených kontaktov",
+      "sha256": "c48d3bdf25452599efbb450cec611e63b044453391f5f9c2bad7db4e92bf8e53",
+      "bytes": 43191,
+      "httpStatus": 200,
+      "downloaded": true,
+      "rightsStatus": "existing_public_source_local_authorized_preview_only; new_publication_rights_not_audited"
+    },
+    {
+      "url": "https://www.onlineasistent.sk/wp-content/uploads/2022/12/OnlineAsistentWeb6.jpg",
+      "localPath": "assets/real/OnlineAsistentWeb6.jpg",
+      "filename": "OnlineAsistentWeb6.jpg",
+      "sourcePage": "https://www.onlineasistent.sk/",
+      "sourceWidgetIds": [
+        "316dafc"
+      ],
+      "discovery": "img data-wpfc-original-src or src",
+      "originalAlt": "Zákaznícka podpora – starostlivosť o vašich súčasných klientov",
+      "sha256": "09eb26e1380f31ee2e3723626777bf190d545a628adc1a7a7a31157d6752c004",
+      "bytes": 58376,
+      "httpStatus": 200,
+      "downloaded": true,
+      "rightsStatus": "existing_public_source_local_authorized_preview_only; new_publication_rights_not_audited"
+    },
+    {
+      "url": "https://www.onlineasistent.sk/wp-content/uploads/2022/12/OnlineAsistenWeb4.jpg",
+      "localPath": "assets/real/OnlineAsistenWeb4.jpg",
+      "filename": "OnlineAsistenWeb4.jpg",
+      "sourcePage": "https://www.onlineasistent.sk/",
+      "sourceWidgetIds": [
+        "049ef28"
+      ],
+      "discovery": "img data-wpfc-original-src or src",
+      "originalAlt": "blank",
+      "sha256": "488862b4a6d3e06816a514fc59d780f6c24e4c4dc0e87e756499b9d8cc8beda1",
+      "bytes": 57803,
+      "httpStatus": 200,
+      "downloaded": true,
+      "rightsStatus": "existing_public_source_local_authorized_preview_only; new_publication_rights_not_audited"
+    },
+    {
+      "url": "https://www.onlineasistent.sk/wp-content/uploads/2022/12/OnlineAsistentWeb5.jpg",
+      "localPath": "assets/real/OnlineAsistentWeb5.jpg",
+      "filename": "OnlineAsistentWeb5.jpg",
+      "sourcePage": "https://www.onlineasistent.sk/",
+      "sourceWidgetIds": [
+        "926ceb0"
+      ],
+      "discovery": "img data-wpfc-original-src or src",
+      "originalAlt": "Vkladanie/nahadzovanie produktov na e-shop",
+      "sha256": "c000d65c463deb736340a8ecf2362b76c5259cb4a33dd6d42d1186c6d447a54e",
+      "bytes": 80230,
+      "httpStatus": 200,
+      "downloaded": true,
+      "rightsStatus": "existing_public_source_local_authorized_preview_only; new_publication_rights_not_audited"
+    },
+    {
+      "url": "https://www.onlineasistent.sk/wp-content/uploads/2024/03/Testovanie-softveru-a-aplikacii.jpg",
+      "localPath": "assets/real/Testovanie-softveru-a-aplikacii.jpg",
+      "filename": "Testovanie-softveru-a-aplikacii.jpg",
+      "sourcePage": "https://www.onlineasistent.sk/",
+      "sourceWidgetIds": [
+        "1b76731"
+      ],
+      "discovery": "img data-wpfc-original-src or src",
+      "originalAlt": "Testovanie softvéru a aplikácií",
+      "sha256": "f4550216af68ac3d8fce33765f36d62d9e37d83b0c8b37f3fa19bbb740a79ff9",
+      "bytes": 46990,
+      "httpStatus": 200,
+      "downloaded": true,
+      "rightsStatus": "existing_public_source_local_authorized_preview_only; new_publication_rights_not_audited"
+    },
+    {
+      "url": "https://www.onlineasistent.sk/wp-content/uploads/2025/10/logo-horizontal-white.png",
+      "localPath": "assets/real/logo-horizontal-white.png",
+      "filename": "logo-horizontal-white.png",
+      "sourcePage": "https://www.onlineasistent.sk/",
+      "sourceWidgetIds": [
+        "e057578"
+      ],
+      "discovery": "img data-wpfc-original-src or src",
+      "originalAlt": "ONLINE ASISTENT - MARTIN BARCZI®",
+      "sha256": "998a86c6c9b668e2eccfca81c4598675b5b1349a2950bc2dc141dc0f4f8e6e7e",
+      "bytes": 2769,
+      "httpStatus": 200,
+      "downloaded": true,
+      "rightsStatus": "existing_public_source_local_authorized_preview_only; new_publication_rights_not_audited"
+    },
+    {
+      "url": "https://www.onlineasistent.sk/wp-content/uploads/2025/10/logo-horizontal-white-180x48.png",
+      "localPath": "assets/real/logo-horizontal-white-180x48.png",
+      "filename": "logo-horizontal-white-180x48.png",
+      "sourcePage": "https://www.onlineasistent.sk/",
+      "discovery": "header custom-logo src",
+      "originalAlt": "ONLINE ASISTENT - MARTIN BARCZI®",
+      "sha256": "0adb0a029cc6067119a507796e4e4d10ac1d7b81385dfb92bc268c2b15974208",
+      "bytes": 3789,
+      "httpStatus": 200,
+      "downloaded": true,
+      "rightsStatus": "existing_public_source_local_authorized_preview_only; new_publication_rights_not_audited"
+    },
+    {
+      "url": "https://www.onlineasistent.sk/wp-content/uploads/2026/05/Martin-foto-optimized-1-scaled.webp",
+      "localPath": "assets/real/Martin-foto-optimized-1-scaled.webp",
+      "filename": "Martin-foto-optimized-1-scaled.webp",
+      "sourcePage": "https://www.onlineasistent.sk/moj-pribeh/",
+      "discovery": "real portrait source from existing story page; proposed placement asset, not verified original home hero",
+      "originalAlt": "",
+      "sha256": "9acb1ed21ca7790597b3ddb570990fdb94bdfee8a2d84850dfd0ba07ff84bbb2",
+      "bytes": 188730,
+      "httpStatus": 200,
+      "downloaded": true,
+      "rightsStatus": "existing_public_source_local_authorized_preview_only; new_publication_rights_not_audited"
+    }
+  ],
+  "proposedChangesInThisFile": [],
+  "knownBoundaries": [
+    "No WordPress form tokens, nonces, cookies or hidden input values exported to JSON.",
+    "Only public business contact is retained in footer links.",
+    "Hidden duplicate heading and repeated responsive timeline labels identified rather than rendered as extra copy.",
+    "Existing text includes dated or unverified claims; this source transfer does not validate them.",
+    "No generated person or generated photography used."
+  ]
+}

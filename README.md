@@ -10,7 +10,7 @@ Tento repozitár zachytáva základný zámer XVADURu a jeho prvú klientsku rea
 
 V repozitári je doplnený [research balík pre Martinovu značku, web a odbornú tvorbu](RESEARCH.md): živý rozbor pôvodného onlineasistent.sk, inventár obsahu, 14 referenčných snímok, výber existujúcich realitných výskumov a pracovné briefy. [Základ značky](brand/README.md) oddeľuje doložené východiská od návrhov a otvorených rozhodnutí.
 
-**Aktuálna fáza je iba research.** Nový web, finálny vizuál, platby ani kampaň sa v tomto kroku nestavali. Pôvodný web sa čítal bez administrátorského prístupu a bez odosielania formulárov.
+**Aktuálne: research a lokálny animovaný prototyp homepage.** [Živý návrh podľa Yanis Landing Page Beautifier](design/beautifier/README.md) zachováva pôvodné texty a reálne fotografie. Obsahuje scrollové scény, mobilný variant a dokumentovaný vizuálny systém. Ide o návrh na posúdenie; pôvodný WordPress sa nemenil. Platby ani kampaň nie sú implementované. [Rozsah a overenie prototypu](design/beautifier/QA.md).
 
 ## Grand thesis
 

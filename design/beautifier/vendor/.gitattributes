@@ -1,0 +1,2 @@
+# Preserve published package bytes, including upstream comment whitespace.
+*.min.js -whitespace
