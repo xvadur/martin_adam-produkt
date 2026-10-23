@@ -1,0 +1,23 @@
+/* Adapted from 8B Onda, MIT. Complete license in source/onda-LICENSE.txt. */
+
+@layer sections {
+#method { position: relative; padding: var(--space-2) var(--space-1); background: var(--color-2); }
+#method .method__head { display: grid; gap: 24px; max-width: 60rem; margin-bottom: clamp(48px, 9vh, 110px); }
+#method .method__lead { max-width: 34rem; }
+#method .method__body { display: grid; grid-template-columns: minmax(0, 1fr) 92px; gap: 20px; align-items: start; }
+#method .method__ring { position: relative; grid-column: 2; grid-row: 1; width: 100%; aspect-ratio: 1; }
+#method .method__svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; rotate: -90deg; }
+#method .method__track { fill: none; stroke: color-mix(in srgb, var(--color-1) 14%, transparent); stroke-width: 1.5; }
+#method .method__arc { fill: none; stroke: var(--color-3); stroke-width: 5; stroke-linecap: round; }
+#method .method__station { position: absolute; left: calc(50% + 42.5% * var(--x)); top: calc(50% + 42.5% * var(--y)); width: 9%; height: 9%; margin: -4.5% 0 0 -4.5%; border-radius: var(--radius-2); background: var(--color-3); }
+#method .method__arm { position: absolute; inset: 7.5%; }
+#method .method__runner { position: absolute; left: 50%; top: 0; width: 15%; height: 15%; margin: -7.5% 0 0 -7.5%; border: 3px solid var(--color-3); border-radius: var(--radius-2); background: var(--color-2); }
+#method .method__steps { grid-column: 1; grid-row: 1; display: grid; gap: clamp(56px, 18vh, 170px); }
+#method .step { display: grid; gap: 14px; max-width: 34rem; }
+#method .step__text { color: var(--color-6); }
+@media (min-width: 900px) {
+  #method .method__body { grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: 7vw; }
+  #method .method__ring { grid-column: 1; width: min(100%, 50svh); justify-self: center; }
+  #method .method__steps { grid-column: 2; padding-block: 8svh 14svh; }
+}
+}

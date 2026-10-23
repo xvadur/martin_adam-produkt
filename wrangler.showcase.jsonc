@@ -1,0 +1,12 @@
+{
+  "name": "barczi-xvadur-draft",
+  "account_id": "002b0727daee60448cf72c0b08f7810f",
+  "compatibility_date": "2026-10-23",
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [{ "pattern": "barczi.xvadur.com", "custom_domain": true }],
+  "assets": {
+    "directory": "./showcase",
+    "not_found_handling": "404-page"
+  }
+}
