@@ -11,7 +11,7 @@ Adam vybral tri postupne odvážnejšie titulné stránky s pôvodným obsahom o
 
 Ide o kompletné porovnávacie návrhy homepage; odkazy na pôvodné podstránky zostávajú na onlineasistent.sk. Formuláre pripravujú email, nič samy neodosielajú. Finálne Martinovo prijatie vizuálu týmto nevzniká.
 
-Zdroj: [showcase/](showcase/). [Výber sekcií a provenance](design/variants-2026-10-23/MAPA-SEKCII.md), [zadanie](design/variants-2026-10-23/BRIEF.md). Podrobnosti nasadenia doplní `design/variants-2026-10-23/NASADENIE.md` po overení publikovanej verzie.
+Zdroj: [showcase/](showcase/). [Výber sekcií a provenance](design/variants-2026-10-23/MAPA-SEKCII.md), [zadanie](design/variants-2026-10-23/BRIEF.md), [overené nasadenie](design/variants-2026-10-23/NASADENIE.md).
 
 Lokálne spustenie: `python3 -m http.server 4397 --bind 127.0.0.1 --directory showcase`. Nasadenie používa vlastnú konfiguráciu `wrangler.showcase.jsonc` a existujúci preview Worker `barczi-xvadur-draft`; nemení hlavný xvadur.com ani Martinov WordPress. Publikačný balík vylučuje generátory a pracovné podklady cez `.assetsignore`.
 
