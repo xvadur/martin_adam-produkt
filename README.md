@@ -1,5 +1,20 @@
 # XVADUR
 
+## Martin — tri návrhy webu, 23. 10. 2026
+
+Adam vybral tri postupne odvážnejšie titulné stránky s pôvodným obsahom onlineasistent.sk. Zostava na [barczi.xvadur.com](https://barczi.xvadur.com/) má rozcestník, tri nové verzie a zachovaný doterajší draft:
+
+- [V1 — Osobný](https://barczi.xvadur.com/v1/): Minimalist Hero, skutočný portrét, pokojné teal/mint spracovanie.
+- [V2 — Interaktívny](https://barczi.xvadur.com/v2/): Orrin kompozícia a vlastné animované vysvetlenia šiestich služieb.
+- [V3 — Výrazný](https://barczi.xvadur.com/v3/): Sillage hero a rytmus, Onda proces, vrstvené referencie.
+- [Východiskový draft](https://barczi.xvadur.com/draft/): nezmenená implementácia z commitu `29e7efc` na porovnanie.
+
+Ide o kompletné porovnávacie návrhy homepage; odkazy na pôvodné podstránky zostávajú na onlineasistent.sk. Formuláre pripravujú email, nič samy neodosielajú. Finálne Martinovo prijatie vizuálu týmto nevzniká.
+
+Zdroj: [showcase/](showcase/). [Výber sekcií a provenance](design/variants-2026-10-23/MAPA-SEKCII.md), [zadanie](design/variants-2026-10-23/BRIEF.md), [overené nasadenie](design/variants-2026-10-23/NASADENIE.md).
+
+Lokálne spustenie: `python3 -m http.server 4397 --bind 127.0.0.1 --directory showcase`. Nasadenie používa vlastnú konfiguráciu `wrangler.showcase.jsonc` a existujúci preview Worker `barczi-xvadur-draft`; nemení hlavný xvadur.com ani Martinov WordPress. Publikačný balík vylučuje generátory a pracovné podklady cez `.assetsignore`.
+
 **Spoločná infraštruktúra pre osobnú prácu, autorskú tvorbu a digitálne podnikanie klientov.**
 
 Tento repozitár zachytáva základný zámer XVADURu a jeho prvú klientsku realizáciu: Martina Barcziho. Vznikol z rozhovoru Adama a Codexu 22. októbra 2026. Názov repozitára `martin_adam-produkt` zostáva zachovaný; projekt tu opisujeme ako súčasť XVADURu.
